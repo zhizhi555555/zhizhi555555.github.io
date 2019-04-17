@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>朝阳</title>
+  
+  <subtitle>前方是绝路，希望在转角</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-16T05:59:34.117Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>西瓜哥</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>abc</title>
+    <link href="http://yoursite.com/2019/04/16/abc/"/>
+    <id>http://yoursite.com/2019/04/16/abc/</id>
+    <published>2019-04-16T05:59:34.000Z</published>
+    <updated>2019-04-16T05:59:34.117Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/04/16/hello-world/"/>
+    <id>http://yoursite.com/2019/04/16/hello-world/</id>
+    <published>2019-04-16T05:55:15.718Z</published>
+    <updated>2019-04-16T05:55:15.719Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>apollo</title>
+    <link href="http://yoursite.com/2019/04/16/apollo/"/>
+    <id>http://yoursite.com/2019/04/16/apollo/</id>
+    <published>2019-04-16T03:57:23.000Z</published>
+    <updated>2019-04-16T03:57:51.963Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="apollo"><a href="#apollo" class="headerlink" title="apollo"></a>apollo</h3><p>apollo</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;apollo&quot;&gt;&lt;a href=&quot;#apollo&quot; class=&quot;headerlink&quot; title=&quot;apollo&quot;&gt;&lt;/a&gt;apollo&lt;/h3&gt;&lt;p&gt;apollo&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="apollo" scheme="http://yoursite.com/tags/apollo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jenkins_jacoco</title>
+    <link href="http://yoursite.com/2019/01/31/jenkins-jacoco/"/>
+    <id>http://yoursite.com/2019/01/31/jenkins-jacoco/</id>
+    <published>2019-01-31T01:49:42.000Z</published>
+    <updated>2019-01-31T01:50:43.466Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="jekins-jacoco"><a href="#jekins-jacoco" class="headerlink" title="jekins jacoco"></a>jekins jacoco</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line"></span><br><span class="line">&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><br><span class="line">  xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line"></span><br><span class="line">  &lt;groupId&gt;com.melon&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;fenmi&lt;/artifactId&gt;</span><br><span class="line">  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;</span><br><span class="line"></span><br><span class="line">  &lt;name&gt;fenmi&lt;/name&gt;</span><br><span class="line">  &lt;!-- FIXME change it to the project&apos;s website --&gt;</span><br><span class="line">  &lt;url&gt;http://www.example.com&lt;/url&gt;</span><br><span class="line"></span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;</span><br><span class="line">    &lt;maven.compiler.source&gt;1.7&lt;/maven.compiler.source&gt;</span><br><span class="line">    &lt;maven.compiler.target&gt;1.7&lt;/maven.compiler.target&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line"></span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">    &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;junit&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;junit&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;4.11&lt;/version&gt;</span><br><span class="line">      &lt;scope&gt;test&lt;/scope&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">    &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.jacoco&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;jacoco-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;0.8.1&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">  &lt;build&gt;</span><br><span class="line">    &lt;plugins&gt;</span><br><span class="line">      &lt;!-- jacoco plugin --&gt;</span><br><span class="line">      &lt;plugin&gt;</span><br><span class="line">        &lt;groupId&gt;org.jacoco&lt;/groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;jacoco-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">        &lt;version&gt;0.7.9&lt;/version&gt;</span><br><span class="line">        &lt;executions&gt;</span><br><span class="line">          &lt;execution&gt;</span><br><span class="line">            &lt;!-- 在maven的initialize阶段，将Jacoco的runtime agent作为VM的一个参数 传给被测程序，用于监控JVM中的调用。 --&gt;</span><br><span class="line">            &lt;id&gt;default-prepare-agent&lt;/id&gt;</span><br><span class="line">            &lt;goals&gt;</span><br><span class="line">              &lt;goal&gt;prepare-agent&lt;/goal&gt;</span><br><span class="line">            &lt;/goals&gt;</span><br><span class="line">            &lt;configuration&gt;</span><br><span class="line">              &lt;destFile&gt;</span><br><span class="line">                $&#123;project.build.directory&#125;/coverage-reports/jacoco.exec</span><br><span class="line">              &lt;/destFile&gt;</span><br><span class="line">              &lt;propertyName&gt;surefireArgLine&lt;/propertyName&gt;</span><br><span class="line">            &lt;/configuration&gt;</span><br><span class="line">          &lt;/execution&gt;</span><br><span class="line">          &lt;!-- 在程序的verify阶段，执行report测试的程序。 文件的输入为perpare-agent阶段中设置或者默认的jacoco.exec.</span><br><span class="line">              参数 includes和excludes可用来选定report中过滤的类。 --&gt;</span><br><span class="line">          &lt;execution&gt;</span><br><span class="line">            &lt;id&gt;default-report&lt;/id&gt;</span><br><span class="line">            &lt;phase&gt;test&lt;/phase&gt;</span><br><span class="line">            &lt;goals&gt;</span><br><span class="line">              &lt;goal&gt;report&lt;/goal&gt;</span><br><span class="line">            &lt;/goals&gt;</span><br><span class="line">            &lt;configuration&gt;</span><br><span class="line">              &lt;dataFile&gt;$&#123;project.build.directory&#125;/coverage-reports/jacoco.exec&lt;/dataFile&gt;</span><br><span class="line">              &lt;outputDirectory&gt;$&#123;project.reporting.outputDirectory&#125;/jacoco&lt;/outputDirectory&gt;</span><br><span class="line">            &lt;/configuration&gt;</span><br><span class="line">          &lt;/execution&gt;</span><br><span class="line">        &lt;/executions&gt;</span><br><span class="line">      &lt;/plugin&gt;</span><br><span class="line">      &lt;!-- 使用 maven-surefire-plugin来执行单元测试。 将surefireArgLine赋值给argLine参数，以保证在测试执行时Jacoco</span><br><span class="line">          agent处于运行状态。 --&gt;</span><br><span class="line">      &lt;plugin&gt;</span><br><span class="line">        &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;</span><br><span class="line">        &lt;version&gt;2.19.1&lt;/version&gt;</span><br><span class="line">        &lt;configuration&gt;</span><br><span class="line">          &lt;argLine&gt;$&#123;surefireArgLine&#125;&lt;/argLine&gt;</span><br><span class="line">        &lt;/configuration&gt;</span><br><span class="line">      &lt;/plugin&gt;</span><br><span class="line">    &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;jekins-jacoco&quot;&gt;&lt;a href=&quot;#jekins-jacoco&quot; class=&quot;headerlink&quot; title=&quot;jekins jacoco&quot;&gt;&lt;/a&gt;jekins jacoco&lt;/h4&gt;&lt;figure class=&quot;highlight plai
+      
+    
+    </summary>
+    
+    
+      <category term="jenkins" scheme="http://yoursite.com/tags/jenkins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker_jenkins</title>
+    <link href="http://yoursite.com/2019/01/29/docker-jenkins/"/>
+    <id>http://yoursite.com/2019/01/29/docker-jenkins/</id>
+    <published>2019-01-29T02:10:20.000Z</published>
+    <updated>2019-01-29T08:01:23.003Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="docker-jenkins"><a href="#docker-jenkins" class="headerlink" title="docker jenkins"></a>docker jenkins</h4><h5 id="1拉取镜像"><a href="#1拉取镜像" class="headerlink" title="1拉取镜像"></a>1拉取镜像</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull jenkinsci/jenkins</span><br></pre></td></tr></table></figure><h5 id="2根据镜像启动容器"><a href="#2根据镜像启动容器" class="headerlink" title="2根据镜像启动容器"></a>2根据镜像启动容器</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 8080:8080 -p 50000:50000 jenkinsci/jenkins</span><br></pre></td></tr></table></figure><h5 id="3根据提示去查需要初始的密码"><a href="#3根据提示去查需要初始的密码" class="headerlink" title="3根据提示去查需要初始的密码"></a>3根据提示去查需要初始的密码</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker exec -it 015fad435af29056b08298af455c9dba0f1289be5e03588022736018a1610d70 bash </span><br><span class="line">cat /var/jenkins_home/secrets/initialAdminPassword</span><br></pre></td></tr></table></figure><h5 id="4根据界面提示去安装插件"><a href="#4根据界面提示去安装插件" class="headerlink" title="4根据界面提示去安装插件"></a>4根据界面提示去安装插件</h5><h5 id="5安装ssh-key连接gitLab"><a href="#5安装ssh-key连接gitLab" class="headerlink" title="5安装ssh key连接gitLab"></a>5安装ssh key连接gitLab</h5><p>这个时候要注意，</p><ol><li>配置的公钥私钥来自于jenkins服务器,注意用jenkins<br>账户生成公钥私钥。</li><li>在gitLab的deploy key里配置公钥</li><li>在jenkins凭据里配置私钥</li><li>然后在jenkins服务器上git clone 下地址，用来测试是不是可以连接到gitLab.<br>如果可以证明配置成功。</li></ol><p>gitLab</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;docker-jenkins&quot;&gt;&lt;a href=&quot;#docker-jenkins&quot; class=&quot;headerlink&quot; title=&quot;docker jenkins&quot;&gt;&lt;/a&gt;docker jenkins&lt;/h4&gt;&lt;h5 id=&quot;1拉取镜像&quot;&gt;&lt;a href=&quot;#
+      
+    
+    </summary>
+    
+    
+      <category term="docker jenkins" scheme="http://yoursite.com/tags/docker-jenkins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker example</title>
+    <link href="http://yoursite.com/2019/01/25/docker-example/"/>
+    <id>http://yoursite.com/2019/01/25/docker-example/</id>
+    <published>2019-01-25T07:51:26.000Z</published>
+    <updated>2019-01-25T09:04:31.167Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="docker-example"><a href="#docker-example" class="headerlink" title="docker example"></a>docker example</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ tree identidock/</span><br><span class="line">identidock/</span><br><span class="line">└─ app</span><br><span class="line"> └─ identidock.py</span><br></pre></td></tr></table></figure><p>identidock.py<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">from flask import Flask</span><br><span class="line">app = Flask(__name__) </span><br><span class="line">@app.route(&apos;/&apos;) </span><br><span class="line">def hello_world():</span><br><span class="line"> return &apos;Hello World!\n&apos;</span><br><span class="line">if __name__ == &apos;__main__&apos;:</span><br><span class="line"> app.run(debug=True, host=&apos;0.0.0.0&apos;)</span><br></pre></td></tr></table></figure></p><p>在 identidock 目录下，创建一个名为<br>Dockerfile 的文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">FROM python:3.4</span><br><span class="line">RUN pip install Flask==0.10.1</span><br><span class="line">WORKDIR /app</span><br><span class="line">COPY app /app</span><br><span class="line">CMD [&quot;python&quot;, &quot;identidock.py&quot;]</span><br></pre></td></tr></table></figure></p><p>现在，可以构建和运行我们的简单应用了：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ cd identidock</span><br><span class="line">$ docker build -t identidock .</span><br><span class="line">...</span><br><span class="line">$ docker run -d -p 5000:5000 identidock</span><br><span class="line">0c75444e8f5f16dfe5aceb0aae074cc33dfc06f2d2fb6adb773ac51f20605aa4</span><br></pre></td></tr></table></figure></p><blockquote><p>我把 -d 选项传给 docker run，让它在后台启动容器，但如果想看到 Web 服务器<br>的输出，也可以把它省略。-p 5000:5000 参数告诉 Docker，我们要将容器的 5000 端口转发<br>到主机上的 5000 端口。</p></blockquote><p>test<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ curl localhost:5000</span><br><span class="line">Hello World!</span><br></pre></td></tr></table></figure></p><blockquote><p>目前这个工作流程有一个比较严重的问题：即使代码只有少许改变，我们<br>也需要重新创建镜像，并且重启容器。幸好，有一个简单的解决方法。我们可以把主机上<br>的源码目录绑定挂载（bind mount）到容器内的源码目录之上。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 5000:5000 -v &quot;$PWD&quot;/app:/app identidock</span><br></pre></td></tr></table></figure><p>-v “$PWD”/app:/app 参数把位于 /app 的 app 目录挂载到容器内。它将覆盖容器中 /app 目录<br>的内容 ，而且在容器内还可以进行读写（如果你不希望这样，也可以把数据卷挂载为只<br>读）。参数 -v 必须是绝对路径，因此在这个例子中，我们在当前的目录前加上 $PWD，</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;docker-example&quot;&gt;&lt;a href=&quot;#docker-example&quot; class=&quot;headerlink&quot; title=&quot;docker example&quot;&gt;&lt;/a&gt;docker example&lt;/h4&gt;&lt;figure class=&quot;highlight 
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker常用命令</title>
+    <link href="http://yoursite.com/2019/01/25/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2019/01/25/docker常用命令/</id>
+    <published>2019-01-25T07:11:13.000Z</published>
+    <updated>2019-01-25T07:20:05.526Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="docker常用命令-RUN命令"><a href="#docker常用命令-RUN命令" class="headerlink" title="docker常用命令_RUN命令"></a>docker常用命令_RUN命令</h3><blockquote><p>启动新容器时必然会用到它。因此，它是迄<br>今为止最复杂的命令，能支持非常多的参数。它的选项允许用户配置镜像运行的方式、覆<br>盖 Dockerfile 设置、配置联网，以及设置容器的权限和资源。</p></blockquote><table><thead><tr><th>命令</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td>-a, –attach</td><td style="text-align:center">把指定的数据流（如 STDOUT 之类）连接至终端。若未指定，则默认连接 stdout 和</td></tr></tbody></table><p>stderr。若数据流未指定，而容器以交互模式（-i）启动，则 stdin 也会被连接至终端。<br>此选项与 -d 选项不兼容<br>-d, –detach|使容器在“分离”模式下运行。容器会在后台运行，而命令的返回值是容器的 ID。<br>-i, –interactive|保持 stdin 打开（即使它没有被被连接至终端 10）。一般与 –t 同时使用，用作启动交互<br>式会话的容器。例如：<br>$ docker run -it debian /bin/bash<br>root@bd0f26f928bb:/# ls<br>…省略…</p><p>–restart|配置 Docker 在什么情况下尝试重新启动已退出的容器。参数为 no 意味着永远不会尝<br>试重新启动容器；always 指不管退出状态是什么，总会尝试重新启动；on-failure 仅<br>当退出状态不为 0 的时候才会尝试重启 ，并且可以追加一个可选参数，指定尝试重启<br>的次数，超过重启次数就会放弃（如果没有指定，那就一直重试）。例如，docker run<br>–restart on-failure:10 postgres 将启动 postgres 容器，并当退出值不为 0 的时候，<br>尝试重启最多 10 次。<br>–rm|退出时自动删除容器。不能与 -d 选项同时使用。<br>-t, –tty|分配一个伪终端（pseudo-TTY）。通常与 -i 同时使用，用来启动交互式容器。<br>-e, –env|设置容器内的环境变量。例如：<br>$ docker run -e var1=val -e var2=”val 2” debian env<br>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin<br>HOSTNAME=b15f833d65d8<br>var1=val<br>var2=val 2<br>HOME=/root<br>另外，–env-file 选项可以经文件传入环境变量。<br>-h, –hostname NAME|设置容器的 unix 主机名为 NAME。例如：<br>$ docker run -h “myhost” debian hostname<br>myhost<br>–name NAME|把 NAME 设置为容器的名称。以后，其他 Docker 命令便可以使用该名称来称呼这个容器。<br>以下选项允许用户进行数据卷的设置<br>-v, –volume|这个选项可以用来设置数据卷（数据卷即一个容器中的文件或目录，实际属于主机的文<br>件系统，而非容器的联合文件系统的一部分），有两种形式的参数可供使用。第一种形<br>式仅指定容器中的目录，Docker 会自行选定一个主机上的目录与之绑定。第二种形式<br>除了指定容器目录，还指定与容器目录绑定的主机目录。<br>–volumes-from|挂载指定容器拥有的数据卷。经常用于数据容器<br>–expose|与 Dockerfile 的 EXPOSE 指令功能一样。指定容器将会使用的端口或端口范围，但并不会<br>把端口打开。只有与 -P 参数同时使用，以及在连接容器时，才有真正意义。<br>–link|建立一个与指定容器连接的内部网络接口。详<br>-p, –publish|“发布”容器的端口，使主机能访问它。若没有指定主机端口，则会随机分配一个高端<br>口，可通过 docker port 命令查看分配了哪个端口。还可以指定端口是在主机的哪个网<br>络接口开放。<br>-P, –publish-all|“发布”所有已指定为开放（exposed）的容器端口，使主机能访问它们。每个容器端口<br>均对应一个随机挑选的高端口。docker port 命令可以用来查看端口之间的映射关系。<br>如果你需要更高级的联网功能，还有几个进阶的选项可用。但请注意，这些选项中有一些<br>要求你对联网有一定了解，以及明白联网在 Docker 中如何实现</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;docker常用命令-RUN命令&quot;&gt;&lt;a href=&quot;#docker常用命令-RUN命令&quot; class=&quot;headerlink&quot; title=&quot;docker常用命令_RUN命令&quot;&gt;&lt;/a&gt;docker常用命令_RUN命令&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;启
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitlab备份还原</title>
+    <link href="http://yoursite.com/2019/01/23/gitlab%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/"/>
+    <id>http://yoursite.com/2019/01/23/gitlab备份还原/</id>
+    <published>2019-01-23T02:48:49.000Z</published>
+    <updated>2019-01-24T08:14:51.986Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="备份跟还原-GitLab"><a href="#备份跟还原-GitLab" class="headerlink" title="备份跟还原 GitLab"></a>备份跟还原 GitLab</h3><p>应用数据备份创建的压缩文件包含了数据库，所有代码仓库和所有附件。<br>你可以在另一个利用同一个版本的gitLab中回复。<br>通过备份跟恢复是迁移你的仓库从一个服务器到另一个的最好的方式。</p><h4 id="需要条件"><a href="#需要条件" class="headerlink" title="需要条件"></a>需要条件</h4><p>为了能够备份跟恢复，你需要在你的系统中安装2个必要的工具。</p><h5 id="Rsync-远程同步工具"><a href="#Rsync-远程同步工具" class="headerlink" title="Rsync(远程同步工具)"></a>Rsync(远程同步工具)</h5><p>如果你已经安装了GitLab:<br> 利用OmniBus包<br> 确保rsync都安装</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Debian/Ubuntu</span><br><span class="line">sudo apt-get install rsync</span><br><span class="line"># RHEL/CentOS</span><br><span class="line">sudo yum install rsync</span><br></pre></td></tr></table></figure><h5 id="Tar"><a href="#Tar" class="headerlink" title="Tar"></a>Tar</h5><p>确保Tar命令在1.3.0以上<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar --version</span><br></pre></td></tr></table></figure></p><h5 id="备份timestamp"><a href="#备份timestamp" class="headerlink" title="备份timestamp"></a>备份timestamp</h5><blockquote><p>在 GitLab 9.2 the timestamp 格式变了从<br>EPOCH_YYYY_MM_DD 到 EPOCH_YYYY_MM_DD_GitLab_version,<br>比如 1493107454_2018_04_25 会变成 1493107454_2018_04_25_10.6.4-ce.</p></blockquote><h5 id="Gitlab的备份目录路径设置"><a href="#Gitlab的备份目录路径设置" class="headerlink" title="Gitlab的备份目录路径设置"></a>Gitlab的备份目录路径设置</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[root@code-server ~]# vim /etc/gitlab/gitlab.rb</span><br><span class="line">gitlab_rails[&apos;manage_backup_path&apos;] = true</span><br><span class="line">gitlab_rails[&apos;backup_path&apos;] = &quot;/data/gitlab/backups&quot;    //gitlab备份目录</span><br><span class="line">gitlab_rails[&apos;backup_archive_permissions&apos;] = 0644       //生成的备份文件权限</span><br><span class="line">gitlab_rails[&apos;backup_keep_time&apos;] = 7776000              //备份保留天数为3个月（即90天，这里是7776000秒）</span><br><span class="line"> </span><br><span class="line">[root@code-server ~]# mkdir -p /data/gitlab/backups</span><br><span class="line">[root@code-server ~]# chown -R git.git /data/gitlab/backups</span><br><span class="line">[root@code-server ~]# chmod -R 777 /data/gitlab/backups</span><br><span class="line">  </span><br><span class="line">如上设置了gitlab备份目录路径为/data/gitlab/backups，最后使用下面命令重载gitlab配置文件，是上述修改生效！</span><br><span class="line">root@code-server ~]# gitlab-ctl reconfigure</span><br></pre></td></tr></table></figure><h5 id="GItlab备份操作（使用备份命令”gitlab-rake-gitlab-backup-create”）"><a href="#GItlab备份操作（使用备份命令”gitlab-rake-gitlab-backup-create”）" class="headerlink" title="GItlab备份操作（使用备份命令”gitlab-rake gitlab:backup:create”）"></a>GItlab备份操作（使用备份命令”gitlab-rake gitlab:backup:create”）</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">手动备份gitlab</span><br><span class="line">[root@code-server backups]# gitlab-rake gitlab:backup:create</span><br><span class="line">Dumping database ...</span><br><span class="line">Dumping PostgreSQL database gitlabhq_production ... [DONE]</span><br><span class="line">done</span><br><span class="line">Dumping repositories ...</span><br><span class="line"> * treesign/treesign ... [DONE]</span><br><span class="line"> * gateway/gateway ... [DONE]</span><br><span class="line"> * treesign/treesign-doc ... [SKIPPED]</span><br><span class="line"> * qwsign/qwsign ... [DONE]</span><br><span class="line"> * qwsign/qwsign-doc ... [DONE]</span><br><span class="line"> * test/test ... [DONE]</span><br><span class="line">done</span><br><span class="line">Dumping uploads ...</span><br><span class="line">done</span><br><span class="line">Dumping builds ...</span><br><span class="line">done</span><br><span class="line">Dumping artifacts ...</span><br><span class="line">done</span><br><span class="line">Dumping pages ...</span><br><span class="line">done</span><br><span class="line">Dumping lfs objects ...</span><br><span class="line">done</span><br><span class="line">Dumping container registry images ...</span><br><span class="line">[DISABLED]</span><br><span class="line">Creating backup archive: 1510471890_2017_11_12_9.4.5_gitlab_backup.tar ... done</span><br><span class="line">Uploading backup archive to remote storage  ... skipped</span><br><span class="line">Deleting tmp directories ... done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">Deleting old backups ... done. (0 removed)</span><br><span class="line"> </span><br><span class="line">然后查看下备份文件（文件权限是设定好的644）</span><br><span class="line">[root@code-server backups]# ll</span><br><span class="line">total 244</span><br><span class="line">-rw-r--r-- 1 git git 245760 Nov 12 15:33 1510472027_2017_11_12_9.4.5_gitlab_backup.tar</span><br><span class="line"> </span><br><span class="line">编写备份脚本，结合crontab实施自动定时备份，比如每天0点、6点、12点、18点各备份一次</span><br><span class="line">[root@code-server backups]# pwd</span><br><span class="line">/data/gitlab/backups</span><br><span class="line">[root@code-server backups]# vim gitlab_backup.sh</span><br><span class="line">#!/bin/bash</span><br><span class="line">/usr/bin/gitlab-rake gitlab:backup:create CRON=1</span><br><span class="line"> </span><br><span class="line">注意：环境变量CRON=1的作用是如果没有任何错误发生时， 抑制备份脚本的所有进度输出</span><br><span class="line"> </span><br><span class="line">[root@code-server backups]# crontab -l</span><br><span class="line">0 0,6,12,18 * * * /bin/bash -x /data/gitlab/backups/gitlab_backup.sh &gt; /dev/null 2&gt;&amp;1</span><br></pre></td></tr></table></figure><h5 id="Gitlab恢复操作"><a href="#Gitlab恢复操作" class="headerlink" title="Gitlab恢复操作"></a>Gitlab恢复操作</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br></pre></td><td class="code"><pre><span class="line">GItlab只能还原到与备份文件相同的gitlab版本。</span><br><span class="line">假设在上面gitlab备份之前创建了test项目，然后不小心误删了test项目，现在就进行gitlab恢复操作：</span><br><span class="line">  </span><br><span class="line">1）停止相关数据连接服务</span><br><span class="line">[root@code-server backups]# gitlab-ctl stop unicorn</span><br><span class="line">ok: down: unicorn: 0s, normally up</span><br><span class="line">[root@code-server backups]# gitlab-ctl stop sidekiq</span><br><span class="line">ok: down: sidekiq: 1s, normally up</span><br><span class="line">[root@code-server backups]# gitlab-ctl status</span><br><span class="line">run: gitaly: (pid 98087) 1883s; run: log: (pid 194202) 163003s</span><br><span class="line">run: gitlab-monitor: (pid 98101) 1883s; run: log: (pid 194363) 163002s</span><br><span class="line">run: gitlab-workhorse: (pid 98104) 1882s; run: log: (pid 194362) 163002s</span><br><span class="line">run: logrotate: (pid 98117) 1882s; run: log: (pid 5793) 160832s</span><br><span class="line">run: nginx: (pid 98123) 1881s; run: log: (pid 194359) 163002s</span><br><span class="line">run: node-exporter: (pid 98167) 1881s; run: log: (pid 194360) 163002s</span><br><span class="line">run: postgres-exporter: (pid 98173) 1881s; run: log: (pid 194204) 163003s</span><br><span class="line">run: postgresql: (pid 98179) 1880s; run: log: (pid 194365) 163002s</span><br><span class="line">run: prometheus: (pid 98187) 1880s; run: log: (pid 194364) 163002s</span><br><span class="line">run: redis: (pid 98230) 1879s; run: log: (pid 194358) 163002s</span><br><span class="line">run: redis-exporter: (pid 98234) 1879s; run: log: (pid 194208) 163003s</span><br><span class="line">down: sidekiq: 8s, normally up; run: log: (pid 194437) 163001s</span><br><span class="line">down: unicorn: 21s, normally up; run: log: (pid 194443) 163001s</span><br><span class="line">  </span><br><span class="line">2）现在通过之前的备份文件进行恢复（必须要备份文件放到备份路径下，这里备份路径我自定义的/data/gitlab/backups，默认的是/var/opt/gitlab/backups）</span><br><span class="line">[root@code-server backups]# pwd</span><br><span class="line">/data/gitlab/backups</span><br><span class="line">[root@code-server backups]# ll</span><br><span class="line">total 244</span><br><span class="line">-rw-r--r-- 1 git git 245760 Nov 12 15:33 1510472027_2017_11_12_9.4.5_gitlab_backup.tar</span><br><span class="line">  </span><br><span class="line">Gitlab的恢复操作会先将当前所有的数据清空，然后再根据备份数据进行恢复</span><br><span class="line">[root@code-server backups]# gitlab-rake gitlab:backup:restore BACKUP=1510472027_2017_11_12_9.4.5</span><br><span class="line">Unpacking backup ... done</span><br><span class="line">Before restoring the database we recommend removing all existing</span><br><span class="line">tables to avoid future upgrade problems. Be aware that if you have</span><br><span class="line">custom tables in the GitLab database these tables and all data will be</span><br><span class="line">removed.</span><br><span class="line">  </span><br><span class="line">Do you want to continue (yes/no)?</span><br><span class="line">........</span><br><span class="line">ALTER TABLE</span><br><span class="line">ALTER TABLE</span><br><span class="line">ALTER TABLE</span><br><span class="line">ALTER TABLE</span><br><span class="line">WARNING:  no privileges were granted for &quot;public&quot;</span><br><span class="line">GRANT</span><br><span class="line">[DONE]</span><br><span class="line">done</span><br><span class="line">Restoring repositories ...</span><br><span class="line"> * treesign/treesign ... [DONE]</span><br><span class="line"> * gateway/gateway ... [DONE]</span><br><span class="line"> * treesign/treesign-doc ... [DONE]</span><br><span class="line"> * qwsign/qwsign ... [DONE]</span><br><span class="line"> * qwsign/qwsign-doc ... [DONE]</span><br><span class="line"> * test/test ... [DONE]</span><br><span class="line">Put GitLab hooks in repositories dirs [DONE]</span><br><span class="line">done</span><br><span class="line">Restoring uploads ...</span><br><span class="line">done</span><br><span class="line">Restoring builds ...</span><br><span class="line">done</span><br><span class="line">Restoring artifacts ...</span><br><span class="line">done</span><br><span class="line">Restoring pages ...</span><br><span class="line">done</span><br><span class="line">Restoring lfs objects ...</span><br><span class="line">done</span><br><span class="line">This will rebuild an authorized_keys file.</span><br><span class="line">You will lose any data stored in authorized_keys file.</span><br><span class="line">Do you want to continue (yes/no)? yes</span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">Deleting tmp directories ... done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">done</span><br><span class="line">[root@code-server backups]#</span><br><span class="line">  </span><br><span class="line">最后再次启动Gitlab</span><br><span class="line">[root@code-server backups]# gitlab-ctl start</span><br><span class="line">ok: run: gitaly: (pid 98087) 2138s</span><br><span class="line">ok: run: gitlab-monitor: (pid 98101) 2138s</span><br><span class="line">ok: run: gitlab-workhorse: (pid 98104) 2137s</span><br><span class="line">ok: run: logrotate: (pid 98117) 2137s</span><br><span class="line">ok: run: nginx: (pid 98123) 2136s</span><br><span class="line">ok: run: node-exporter: (pid 98167) 2136s</span><br><span class="line">ok: run: postgres-exporter: (pid 98173) 2136s</span><br><span class="line">ok: run: postgresql: (pid 98179) 2135s</span><br><span class="line">ok: run: prometheus: (pid 98187) 2135s</span><br><span class="line">ok: run: redis: (pid 98230) 2134s</span><br><span class="line">ok: run: redis-exporter: (pid 98234) 2134s</span><br><span class="line">ok: run: sidekiq: (pid 104494) 0s</span><br><span class="line">ok: run: unicorn: (pid 104497) 1s</span><br><span class="line">[root@code-server backups]# gitlab-ctl status</span><br><span class="line">run: gitaly: (pid 98087) 2142s; run: log: (pid 194202) 163262s</span><br><span class="line">run: gitlab-monitor: (pid 98101) 2142s; run: log: (pid 194363) 163261s</span><br><span class="line">run: gitlab-workhorse: (pid 98104) 2141s; run: log: (pid 194362) 163261s</span><br><span class="line">run: logrotate: (pid 98117) 2141s; run: log: (pid 5793) 161091s</span><br><span class="line">run: nginx: (pid 98123) 2140s; run: log: (pid 194359) 163261s</span><br><span class="line">run: node-exporter: (pid 98167) 2140s; run: log: (pid 194360) 163261s</span><br><span class="line">run: postgres-exporter: (pid 98173) 2140s; run: log: (pid 194204) 163262s</span><br><span class="line">run: postgresql: (pid 98179) 2139s; run: log: (pid 194365) 163261s</span><br><span class="line">run: prometheus: (pid 98187) 2139s; run: log: (pid 194364) 163261s</span><br><span class="line">run: redis: (pid 98230) 2138s; run: log: (pid 194358) 163261s</span><br><span class="line">run: redis-exporter: (pid 98234) 2138s; run: log: (pid 194208) 163262s</span><br><span class="line">run: sidekiq: (pid 104494) 4s; run: log: (pid 194437) 163260s</span><br><span class="line">run: unicorn: (pid 104497) 4s; run: log: (pid 194443) 163260s</span><br><span class="line"> </span><br><span class="line">恢复命令完成后，可以check检查一下恢复情况</span><br><span class="line">[root@code-server backups]# gitlab-rake gitlab:check SANITIZE=true</span><br><span class="line">Checking GitLab Shell ...</span><br><span class="line"> </span><br><span class="line">GitLab Shell version &gt;= 5.3.1 ? ... OK (5.3.1)</span><br><span class="line">Repo base directory exists?</span><br><span class="line">default... yes</span><br><span class="line">Repo storage directories are symlinks?</span><br><span class="line">default... no</span><br><span class="line">Repo paths owned by git:root, or git:git?</span><br><span class="line">default... yes</span><br><span class="line">Repo paths access is drwxrws---?</span><br><span class="line">default... yes</span><br><span class="line">hooks directories in repos are links: ...</span><br><span class="line">5/1 ... ok</span><br><span class="line">6/2 ... ok</span><br><span class="line">5/3 ... repository is empty</span><br><span class="line">12/4 ... ok</span><br><span class="line">12/5 ... ok</span><br><span class="line">Running /opt/gitlab/embedded/service/gitlab-shell/bin/check</span><br><span class="line">Check GitLab API access: OK</span><br><span class="line">Access to /var/opt/gitlab/.ssh/authorized_keys: OK</span><br><span class="line">Send ping to redis server: OK</span><br><span class="line">gitlab-shell self-check successful</span><br><span class="line"> </span><br><span class="line">Checking GitLab Shell ... Finished</span><br><span class="line"> </span><br><span class="line">Checking Sidekiq ...</span><br><span class="line"> </span><br><span class="line">Running? ... yes</span><br><span class="line">Number of Sidekiq processes ... 1</span><br><span class="line"> </span><br><span class="line">Checking Sidekiq ... Finished</span><br><span class="line"> </span><br><span class="line">Checking Reply by email ...</span><br><span class="line"> </span><br><span class="line">Reply by email is disabled in config/gitlab.yml</span><br><span class="line"> </span><br><span class="line">Checking Reply by email ... Finished</span><br><span class="line"> </span><br><span class="line">Checking LDAP ...</span><br><span class="line"> </span><br><span class="line">LDAP is disabled in config/gitlab.yml</span><br><span class="line"> </span><br><span class="line">Checking LDAP ... Finished</span><br><span class="line"> </span><br><span class="line">Checking GitLab ...</span><br><span class="line"> </span><br><span class="line">Git configured correctly? ... yes</span><br><span class="line">Database config exists? ... yes</span><br><span class="line">All migrations up? ... yes</span><br><span class="line">Database contains orphaned GroupMembers? ... no</span><br><span class="line">GitLab config exists? ... yes</span><br><span class="line">GitLab config up to date? ... yes</span><br><span class="line">Log directory writable? ... yes</span><br><span class="line">Tmp directory writable? ... yes</span><br><span class="line">Uploads directory exists? ... yes</span><br><span class="line">Uploads directory has correct permissions? ... yes</span><br><span class="line">Uploads directory tmp has correct permissions? ... yes</span><br><span class="line">Init script exists? ... skipped (omnibus-gitlab has no init script)</span><br><span class="line">Init script up-to-date? ... skipped (omnibus-gitlab has no init script)</span><br><span class="line">Projects have namespace: ...</span><br><span class="line">5/1 ... yes</span><br><span class="line">6/2 ... yes</span><br><span class="line">5/3 ... yes</span><br><span class="line">12/4 ... yes</span><br><span class="line">12/5 ... yes</span><br><span class="line">Redis version &gt;= 2.8.0? ... yes</span><br><span class="line">Ruby version &gt;= 2.3.3 ? ... yes (2.3.3)</span><br><span class="line">Git version &gt;= 2.7.3 ? ... yes (2.13.4)</span><br><span class="line">Active users: ... 11</span><br><span class="line"> </span><br><span class="line">Checking GitLab ... Finished</span><br><span class="line">  </span><br><span class="line">然后稍等一会（如果启动gitlab后，访问出现500，这是因为redis等程序还没完全启动，等一会儿访问就ok了），再次登录Gitlab，就会发现之前误删除的test项目已经恢复了！</span><br><span class="line">  </span><br><span class="line">另外：Gitlab迁移与恢复一样，但是要求两个GitLab版本号一致</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;备份跟还原-GitLab&quot;&gt;&lt;a href=&quot;#备份跟还原-GitLab&quot; class=&quot;headerlink&quot; title=&quot;备份跟还原 GitLab&quot;&gt;&lt;/a&gt;备份跟还原 GitLab&lt;/h3&gt;&lt;p&gt;应用数据备份创建的压缩文件包含了数据库，所有代码仓库和所有附
+      
+    
+    </summary>
+    
+    
+      <category term="gitlab" scheme="http://yoursite.com/tags/gitlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitlab安装</title>
+    <link href="http://yoursite.com/2019/01/18/gitlab%E5%AE%89%E8%A3%85/"/>
+    <id>http://yoursite.com/2019/01/18/gitlab安装/</id>
+    <published>2019-01-18T02:52:55.000Z</published>
+    <updated>2019-01-18T03:37:11.724Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="gitLab安装"><a href="#gitLab安装" class="headerlink" title="gitLab安装"></a>gitLab安装</h2><h3 id="1-配置系统防火墙-把HTTP和SSH端口开放"><a href="#1-配置系统防火墙-把HTTP和SSH端口开放" class="headerlink" title="1. 配置系统防火墙,把HTTP和SSH端口开放"></a>1. 配置系统防火墙,把HTTP和SSH端口开放</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[root@gitlab ~]# /etc/init.d/iptables stop</span><br><span class="line">[root@gitlab ~]# yum install curl openssh-server postfix cronie</span><br><span class="line">[root@gitlab ~]# service postfix start</span><br><span class="line">[root@gitlab ~]# chkconfig postfix on</span><br><span class="line">[root@gitlab ~]# lokkit -s http -s ssh</span><br></pre></td></tr></table></figure><h3 id="2-下载gitlab的rpm安装包"><a href="#2-下载gitlab的rpm安装包" class="headerlink" title="2.下载gitlab的rpm安装包"></a>2.下载gitlab的rpm安装包</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@gitlab ~]# rpm -ivh gitlab-ce-9.4.5-ce.0.el6.x86_64.rpm --force</span><br></pre></td></tr></table></figure><blockquote><p>安装后的gitlab默认路径是/opt/gitlab（程序路径）、 /var/opt/gitlab（配置文件路径）。</p></blockquote><h4 id="issue"><a href="#issue" class="headerlink" title="issue"></a>issue</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost zxg]# rpm -ivh gitlab-ce-10.0.0-ce.0.el6.x86_64.rpm --force</span><br><span class="line">warning: gitlab-ce-10.0.0-ce.0.el6.x86_64.rpm: Header V4 RSA/SHA1 Signature, key ID f27eab47: NOKEY</span><br><span class="line">error: Failed dependencies:</span><br><span class="line">policycoreutils-python is needed by gitlab-ce-10.0.0-ce.0.el6.x86_64</span><br></pre></td></tr></table></figure><h4 id="solve"><a href="#solve" class="headerlink" title="solve"></a>solve</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install policycoreutils-python</span><br></pre></td></tr></table></figure><h3 id="3-配置端口号"><a href="#3-配置端口号" class="headerlink" title="3. 配置端口号"></a>3. 配置端口号</h3><blockquote><p>vi /etc/gitlab/gitlab.rb<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">external_url &apos;http://10.60.45.87&apos;</span><br><span class="line">nginx[&apos;listen_port&apos;] = 8081</span><br></pre></td></tr></table></figure></p></blockquote><h3 id="4-生效"><a href="#4-生效" class="headerlink" title="4. 生效"></a>4. 生效</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl reconfigure</span><br><span class="line">gitlab-ctl start</span><br><span class="line">gitlab-ctl status</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;gitLab安装&quot;&gt;&lt;a href=&quot;#gitLab安装&quot; class=&quot;headerlink&quot; title=&quot;gitLab安装&quot;&gt;&lt;/a&gt;gitLab安装&lt;/h2&gt;&lt;h3 id=&quot;1-配置系统防火墙-把HTTP和SSH端口开放&quot;&gt;&lt;a href=&quot;#1-配置系统
+      
+    
+    </summary>
+    
+    
+      <category term="gitlab" scheme="http://yoursite.com/tags/gitlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitLab_Runner</title>
+    <link href="http://yoursite.com/2019/01/18/gitLab-Runner/"/>
+    <id>http://yoursite.com/2019/01/18/gitLab-Runner/</id>
+    <published>2019-01-18T01:27:52.000Z</published>
+    <updated>2019-01-18T03:45:19.108Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="gitLab-之-Runner"><a href="#gitLab-之-Runner" class="headerlink" title="gitLab 之 Runner"></a>gitLab 之 Runner</h3><blockquote><p>Gitlab CI Runner安装以及如何跑项目构建流程。</p></blockquote><h4 id="1-安装、注册并启动Gitlab-Runner"><a href="#1-安装、注册并启动Gitlab-Runner" class="headerlink" title="1. 安装、注册并启动Gitlab Runner"></a>1. 安装、注册并启动Gitlab Runner</h4><p>Gitlab Runner安装方式有两种，一种是直接二进制文件安装，一种是基于docker镜像安装。 </p><h5 id="1-下载对应操作系统的二进制包，我这里使用的是mac版本"><a href="#1-下载对应操作系统的二进制包，我这里使用的是mac版本" class="headerlink" title="1. 下载对应操作系统的二进制包，我这里使用的是mac版本"></a>1. 下载对应操作系统的二进制包，我这里使用的是mac版本</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo curl --output /usr/local/bin/gitlab-runner https://gitlab-ci-multi-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-ci-multi-runner-darwin-amd64</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"> # For RHEL/CentOS/Fedora</span><br><span class="line"> curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | sudo bash</span><br><span class="line">``` </span><br><span class="line">##### 2. 给gitlab-runner赋可执行权限</span><br></pre></td></tr></table></figure><p>sudo chmod +x /usr/local/bin/gitlab-runner<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">##### 3 注册runner</span><br></pre></td></tr></table></figure></p><h1 id="gitlab-runner-register"><a href="#gitlab-runner-register" class="headerlink" title="gitlab-runner register"></a>gitlab-runner register</h1><p>Please enter the gitlab-ci coordinator URL:</p><h1 id="示例：http-gitlab-alibaba-inc-com-ci"><a href="#示例：http-gitlab-alibaba-inc-com-ci" class="headerlink" title="示例：http://gitlab.alibaba-inc.com/ci"></a>示例：<a href="http://gitlab.alibaba-inc.com/ci" target="_blank" rel="noopener">http://gitlab.alibaba-inc.com/ci</a></h1><p>Please enter the gitlab-ci token for this runner:</p><h1 id="xxxxxx"><a href="#xxxxxx" class="headerlink" title="xxxxxx"></a>xxxxxx</h1><p>Please enter the gitlab-ci description for this runner:</p><h1 id="示例：qd-api-runner"><a href="#示例：qd-api-runner" class="headerlink" title="示例：qd_api_runner"></a>示例：qd_api_runner</h1><p>Please enter the gitlab-ci tags for this runner (comma separated):</p><h1 id="示例：hwy"><a href="#示例：hwy" class="headerlink" title="示例：hwy"></a>示例：hwy</h1><p>Whether to run untagged builds [true/false]:</p><h1 id="true"><a href="#true" class="headerlink" title="true"></a>true</h1><p>Please enter the executor: docker, parallels, shell, kubernetes, docker-ssh, ssh, virtualbox, docker+machine, docker-ssh+machine:</p><h1 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h1><p>Please enter the default Docker image (e.g. ruby:2.1):</p><h1 id="maven-3-jdk-8"><a href="#maven-3-jdk-8" class="headerlink" title="maven:3-jdk-8"></a>maven:3-jdk-8</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">说明： </span><br><span class="line">1. gitlab ci的地址以及token，从你要配置该runner到哪个项目，就去gitlab下该项目首页右侧设置—》CI/CD Pipelines—》Specific Runners下可以找到。 </span><br><span class="line">2. gitlab-ci tags这个很重要，在项目构建流程yaml文件里面指定tag，就是匹配使用哪个tag的runner，这里我定义了hwy，回头再配置文件里面就指定这个tag。 </span><br><span class="line">3. executor：执行者可以有很多种，这里我们使用docker，方便构建执行。 </span><br><span class="line">4. Docker image：构建Docker image时填写的image名称，根据项目代码语言不同，指定不同的镜像。我这里项目是java语言的，所以我使用官方maven:3-jdk-8镜像。</span><br><span class="line"></span><br><span class="line">##### 4. 安装并启动gitlab-runner</span><br></pre></td></tr></table></figure><p>cd ~<br>gitlab-runner install<br>gitlab-runner start<br><code>`</code></p><p>注册gitlab-runner时，提示报错：<br>GitLab Runner &gt;= 9.0 can be used ONLY with GitLab CE/EE &gt;= 9.0<br>这个因为默认gitlab runner安装时最新版的，与我们正在使用的gitlab版本不匹配，那么我们找到匹配的gitlab-runner版本安装即可，从这里我们可以找到 Runner和GitLab CE / EE兼容性列表<br>有时runner会连接不上，或者在项目仓库-&gt;设置-&gt;runner里呈灰色，这有可能是runner机器上没有启动gitlab-runner引起的，可以执行ps -ef | grep gitlab看看是否存在gitlab-runner的进程，如果没有则执行gitlab-runner start 命令启动runner服务。<br>若已经配置好了gitlab-runner了，执行commit，pipeline状态一直是pending，并且提示：<br>This build is stuck, because the project doesn’t have any runners online assigned to it. Go to Runners page<br>这个是因为未找到对应的runner导致的，原因一是有可能gitlab-runner注册失败，原因二有可能是.gitlab-ci.yml配置文件里面tags没有匹配到已注册可用的runner。<br>每次maven:3-jdk-8去执行build和test都会重新拉取镜像，下载依赖的jar包，比较耗时耗资源。这是因为docker image每次构建都是在独立的container里， maven的 .m2文件并不会被多次构建公用，这里我们可以通过修改gitlab-runner的配置，将maven .m2目录加到volumes中，并增加镜像拉取规则（默认是从远程拉取镜像，这里修改为优先获取本地镜像，不存在时才去远程拉取镜像）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;gitLab-之-Runner&quot;&gt;&lt;a href=&quot;#gitLab-之-Runner&quot; class=&quot;headerlink&quot; title=&quot;gitLab 之 Runner&quot;&gt;&lt;/a&gt;gitLab 之 Runner&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Gitla
+      
+    
+    </summary>
+    
+    
+      <category term="gitLab" scheme="http://yoursite.com/tags/gitLab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker_redis</title>
+    <link href="http://yoursite.com/2019/01/16/docker-redis/"/>
+    <id>http://yoursite.com/2019/01/16/docker-redis/</id>
+    <published>2019-01-16T11:08:22.000Z</published>
+    <updated>2019-01-16T11:26:25.132Z</updated>
+    
+    <content type="html"><![CDATA[<p>docker pull redis</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name myredis -d redis</span><br></pre></td></tr></table></figure><p>-d d 参数让容器在后台运行</p><p>####启动客户端<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$ docker run --rm -it --link myredis:redis redis /bin/bash</span><br><span class="line">root@ca38735c5747:/data# redis-cli -h redis -p 6379</span><br><span class="line">redis:6379&gt; ping</span><br><span class="line">PONG</span><br><span class="line">redis:6379&gt; set &quot;abc&quot; 123</span><br><span class="line">OK</span><br><span class="line">redis:6379&gt; get &quot;abc&quot;</span><br><span class="line">&quot;123&quot;</span><br><span class="line">redis:6379&gt; exit</span><br><span class="line">root@ca38735c5747:/data# exit</span><br><span class="line">exit</span><br></pre></td></tr></table></figure></p><blockquote><p>能将两个容器神奇地连接在一起，是通过 docker run 命令的 –link myredis:redis 参数实<br>现的。这个参数告诉 Docker 把新容器与现存的“myredis”容器连接起来，并且在新容器<br>中以“redis”作为“myredis”容器的主机名。为了实现这一点，Docker 会在新容器中的 /<br>etc/hosts 里添加一个新条目，把“redis”指向“myredis”的 IP 地址。这样就能够在执行<br>redis-cli 的时候直接使用“redis”作为主机名，而不需想办法找出或传递 Redis 容器的 IP<br>地址给 redis-cli。</p></blockquote><blockquote><p>我们怎样才能做数据的持久保存和备份？为此，我们不会使用标准的容器文件系统，而是需要一个能够让容器与主机，或容器<br>与其他容器之间轻松共享数据的方式。Docker 通过数据卷（volume）的概念提供了这种<br>方式。数据卷是直接在主机挂载的文件或目录，不属于常规联合文件系统的一部分。</p></blockquote><p>第一种是在 Dockerfile 里使用 VOLUME 指令，第二种是在执行<br>docker run 的时候使用 -v 参数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">$ docker run --rm -it --link myredis:redis redis /bin/bash</span><br><span class="line">root@09a1c4abf81f:/data# redis-cli -h redis -p 6379</span><br><span class="line">redis:6379&gt; set &quot;persistence&quot; &quot;test&quot;</span><br><span class="line">OK</span><br><span class="line">redis:6379&gt; save</span><br><span class="line">OK</span><br><span class="line">redis:6379&gt; exit</span><br><span class="line">root@09a1c4abf81f:/data# exit</span><br><span class="line">exit</span><br><span class="line">$ docker run --rm --volumes-from myredis -v $(pwd)/backup:/backup \</span><br><span class="line"> debian cp /data/dump.rdb /backup/</span><br><span class="line">$ ls backup</span><br><span class="line">dump.rdb</span><br></pre></td></tr></table></figure></p><p>$ docker stop myredis<br>myredis<br>$ docker rm -v myredis</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;docker pull redis&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td cl
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker寄存服务</title>
+    <link href="http://yoursite.com/2019/01/16/docker%E5%AF%84%E5%AD%98%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://yoursite.com/2019/01/16/docker寄存服务/</id>
+    <published>2019-01-16T07:09:44.000Z</published>
+    <updated>2019-01-16T10:11:17.252Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="docker寄存服务-registry"><a href="#docker寄存服务-registry" class="headerlink" title="docker寄存服务(registry)"></a>docker寄存服务(registry)</h2><blockquote><p>寄存服务（registry）<br>负责托管和发布镜像的服务，默认为 Docker Hub。</p></blockquote><blockquote><p>仓库（repository）<br>一组相关镜像（通常是一个应用或服务的不同版本）的集合</p></blockquote><blockquote><p>标签（tag）<br>仓库中镜像的识别号，由英文和数字组成（如 14.04 或 stable）。</p></blockquote><p>MAINTAINER 指令，这样做是为了给镜像设定作者的联系信息<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">FROM debian</span><br><span class="line">MAINTAINER John Smith &lt;john@smith.com&gt;</span><br><span class="line">RUN apt-get update &amp;&amp; apt-get install -y cowsay fortune</span><br><span class="line">COPY entrypoint.sh /</span><br><span class="line">ENTRYPOINT [&quot;/entrypoint.sh&quot;]</span><br></pre></td></tr></table></figure></p><p>构建与push 项目<br>仓库名称必须用你的 Docker Hub 账户名开头（我的是 amouat），<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker build -t amouat/cowsay .</span><br><span class="line">docker push amouat/cowsay</span><br></pre></td></tr></table></figure></p><p>加个冒号可以指定标签<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -t amouat/cowsay:stable.</span><br></pre></td></tr></table></figure></p><p>上传完毕后，任何人都可以用 docker pull 命令下载你的镜像<br>（例如 docker pull amouat/cowsay）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull zxg123/cowsay</span><br></pre></td></tr></table></figure></p><blockquote><p>issue: Docker push image: denied</p></blockquote><blockquote><p>问题：Docker push image: denied: requested accessto the resource is denied</p></blockquote><blockquote><p>原因：要先docke login再docker push</p></blockquote><p>解决：</p><p>[root@localhost website]# docker login</p><p>Login with your Docker ID to push and pullimages from Docker Hub. If you don’t have a Docker ID, head over to<a href="https://hub.docker.com" target="_blank" rel="noopener">https://hub.docker.com</a> to create one.</p><p>Username: lilei123</p><p>Password:</p><p>Login Succeeded</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;docker寄存服务-registry&quot;&gt;&lt;a href=&quot;#docker寄存服务-registry&quot; class=&quot;headerlink&quot; title=&quot;docker寄存服务(registry)&quot;&gt;&lt;/a&gt;docker寄存服务(registry)&lt;/h2&gt;&lt;bl
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker dockerFile</title>
+    <link href="http://yoursite.com/2019/01/16/docker-dockerFile/"/>
+    <id>http://yoursite.com/2019/01/16/docker-dockerFile/</id>
+    <published>2019-01-16T05:37:08.000Z</published>
+    <updated>2019-01-16T06:56:04.707Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="dockerFile"><a href="#dockerFile" class="headerlink" title="dockerFile"></a>dockerFile</h4><p>利用 Dockerfile，使创建镜像的过程全部自动化。</p><blockquote><p>Dockerfile<br>  Dockerfile 是一个描述如何创建 Docker 镜像所需步骤的文本文件。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir cowsay</span><br><span class="line">   $ cd cowsay</span><br><span class="line">   $ touch Dockerfile</span><br></pre></td></tr></table></figure><p>编辑Dockerfile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">FROM debian:wheezy</span><br><span class="line">RUN apt-get update &amp;&amp; apt-get install -y cowsay fortune</span><br></pre></td></tr></table></figure></p><p>执行Dockerfile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ls</span><br><span class="line">Dockerfile</span><br><span class="line">$ docker build -t test/cowsay-dockerfile .</span><br></pre></td></tr></table></figure></p><p>最后面那个点代表当前目录下执行docker build<br>创建成功,执行docker<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run test/cowsay-dockerfile /usr/games/cowsay &quot;Moo&quot;</span><br></pre></td></tr></table></figure></p><h4 id="通过利用-Dockerfile-的-ENTRYPOINT-指-令"><a href="#通过利用-Dockerfile-的-ENTRYPOINT-指-令" class="headerlink" title="通过利用 Dockerfile 的 ENTRYPOINT 指 令,"></a>通过利用 Dockerfile 的 ENTRYPOINT 指 令,</h4><blockquote><p>我 们 可 以 让 用 户 更 易 于 使 用 这 个 镜 像。<br>ENTRYPOINT 指令让我们指定一个可执行文件，同时还能处理传给 docker run 的参数。<br>在 Dockerfile 的最后加上下面这一行：</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ENTRYPOINT [&quot;/usr/games/cowsay&quot;]</span><br></pre></td></tr></table></figure><p>现在再次生成新镜像，以后使用这个新镜像时再也不需要指定 cowsay 命令了：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ docker build -t test/cowsay-dockerfile .</span><br><span class="line"></span><br><span class="line">$ docker run test/cowsay-dockerfile &quot;Moo&quot;</span><br></pre></td></tr></table></figure><h4 id="我们可以把-ENTRYPOINT-指定为一个我们自己的脚本"><a href="#我们可以把-ENTRYPOINT-指定为一个我们自己的脚本" class="headerlink" title="我们可以把 ENTRYPOINT 指定为一个我们自己的脚本"></a>我们可以把 ENTRYPOINT 指定为一个我们自己的脚本</h4><p>创建一个新文件 entrypoint.sh<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">if [ $# -eq 0 ]; then</span><br><span class="line"> /usr/games/fortune | /usr/games/cowsay</span><br><span class="line"> else</span><br><span class="line"> /usr/games/cowsay &quot;$@&quot;</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></p><p>用 chmod +x entrypoint.sh 把文件设为可执行</p><p>修改DockerFile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FROM debian</span><br><span class="line">RUN apt-get update &amp;&amp; apt-get install -y cowsay fortune</span><br><span class="line">COPY entrypoint.sh / </span><br><span class="line">ENTRYPOINT [&quot;/entrypoint.sh&quot;]</span><br></pre></td></tr></table></figure></p><blockquote><p>测试执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker build -t test/cowsay-dockerfile .</span><br><span class="line">docker run test/cowsay-dockerfile</span><br><span class="line">docker run test/cowsay-dockerfile Hello Moo</span><br></pre></td></tr></table></figure></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;dockerFile&quot;&gt;&lt;a href=&quot;#dockerFile&quot; class=&quot;headerlink&quot; title=&quot;dockerFile&quot;&gt;&lt;/a&gt;dockerFile&lt;/h4&gt;&lt;p&gt;利用 Dockerfile，使创建镜像的过程全部自动化。&lt;/p&gt;
+&lt;bloc
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker容器运行apt-get update失败Temporary failure resolving</title>
+    <link href="http://yoursite.com/2019/01/16/docker%E5%AE%B9%E5%99%A8%E8%BF%90%E8%A1%8Capt-get-update%E5%A4%B1%E8%B4%A5Temporary-failure-resolving/"/>
+    <id>http://yoursite.com/2019/01/16/docker容器运行apt-get-update失败Temporary-failure-resolving/</id>
+    <published>2019-01-16T03:45:04.000Z</published>
+    <updated>2019-01-16T03:46:42.059Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving"><a href="#Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving" class="headerlink" title="Ubuntu中docker容器运行apt-get update失败Temporary failure resolving"></a>Ubuntu中docker容器运行apt-get update失败Temporary failure resolving</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure><p>试过了添加nameserver到/etc/resolve.conf还是不行，最后重启docker，问题解决了。。。</p><p>一开始是简单粗暴地改写域名解析文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -c &quot;s=&apos;nameserver 114.114.114.114&apos;;fname=&apos;/etc/resolv.conf&apos;;fp=open(fname);ss=fp.read();fp.close();fp=open(fname, &apos;w&apos;);fp.write(&apos;&#123;s&#125;\n&#123;ss&#125;&apos;.format(s=s,ss=ss));fp.close()&quot;</span><br></pre></td></tr></table></figure></p><p>结果在容器运行时有作用，在创建容器时还是会出问题，所以还是要重启docker</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving&quot;&gt;&lt;a href=&quot;#Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker IPv4 forwarding is disabled</title>
+    <link href="http://yoursite.com/2019/01/16/docker-IPv4-forwarding-is-disabled/"/>
+    <id>http://yoursite.com/2019/01/16/docker-IPv4-forwarding-is-disabled/</id>
+    <published>2019-01-16T02:42:27.000Z</published>
+    <updated>2019-01-16T02:42:44.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>centos 7 docker 启动了一个web服务 但是启动时 报</p><p>WARNING: IPv4 forwarding is disabled. Networking will not work.</p><p>网上查询了下 需要做如下配置</p><p>解决办法：</p><p>vi /etc/sysctl.conf</p><p>或者</p><p>vi /usr/lib/sysctl.d/00-system.conf</p><p>添加如下代码：</p><p>net.ipv4.ip_forward=1</p><p>重启network服务</p><p>systemctl restart network</p><p>查看是否修改成功</p><p>sysctl net.ipv4.ip_forward</p><p>如果返回为“net.ipv4.ip_forward = 1”则表示成功了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;centos 7 docker 启动了一个web服务 但是启动时 报&lt;/p&gt;
+&lt;p&gt;WARNING: IPv4 forwarding is disabled. Networking will not work.&lt;/p&gt;
+&lt;p&gt;网上查询了下 需要做如下配置&lt;/p&gt;
+&lt;p&gt;解决
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux iptables</title>
+    <link href="http://yoursite.com/2019/01/16/linux-iptables/"/>
+    <id>http://yoursite.com/2019/01/16/linux-iptables/</id>
+    <published>2019-01-16T02:25:29.000Z</published>
+    <updated>2019-01-16T02:26:02.523Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="解决centos7中使用service-iptables-stop-显示not-loaded"><a href="#解决centos7中使用service-iptables-stop-显示not-loaded" class="headerlink" title="解决centos7中使用service iptables stop 显示not loaded"></a>解决centos7中使用service iptables stop 显示not loaded</h3><p>centos从7开始默认用的是firewalld，这个是基于iptables的，虽然有iptables的核心，<br>但是iptables的服务是没安装的。所以你只要停止firewalld服务即可：<br>sudo systemctl stop firewalld.service &amp;&amp; sudo systemctl disable firewalld.service</p><p>如果你要改用iptables的话，需要安装iptables服务：<br>sudo yum install iptables-services<br>sudo systemctl enable iptables &amp;&amp; sudo systemctl enable ip6tables<br>sudo systemctl start iptables &amp;&amp; sudo systemctl start ip6tables</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;解决centos7中使用service-iptables-stop-显示not-loaded&quot;&gt;&lt;a href=&quot;#解决centos7中使用service-iptables-stop-显示not-loaded&quot; class=&quot;headerlink&quot; title=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker基本命令</title>
+    <link href="http://yoursite.com/2019/01/15/docker%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2019/01/15/docker基本命令/</id>
+    <published>2019-01-15T12:33:17.000Z</published>
+    <updated>2019-01-19T13:58:01.386Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="sonar为容器名称"><a href="#sonar为容器名称" class="headerlink" title="sonar为容器名称"></a>sonar为容器名称</h4> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect sonar</span><br></pre></td></tr></table></figure><p> sonar容器信息<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker diff sonar</span><br></pre></td></tr></table></figure></p><p> sonar容器最近修改信息<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker logs sonar</span><br><span class="line">docker logs -t sonar</span><br><span class="line">docker logs -tf sonar</span><br><span class="line">docker logs -tf --tail 0 sonar</span><br></pre></td></tr></table></figure></p><p> sonar删除容器<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm sonar</span><br></pre></td></tr></table></figure></p><p> 清理已停止的容器<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm -v $(docker ps -aq -f status=exited)</span><br></pre></td></tr></table></figure></p><p> 在运行中的容器内启动新进程<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker exec -i -t container /bin/bash</span><br></pre></td></tr></table></figure></p><h4 id="把cowsay应用docker化"><a href="#把cowsay应用docker化" class="headerlink" title="把cowsay应用docker化"></a>把cowsay应用docker化</h4> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">  docker run -it --name cowsay --hostname cowsay debian bash</span><br><span class="line">  apt-get update</span><br><span class="line">  apt-get install -y cowsay fortune</span><br><span class="line">  /usr/games/fortune | /usr/games/cowsay</span><br><span class="line">  </span><br><span class="line">  / Writing is easy; all you do is sit \</span><br><span class="line">| staring at the blank sheet of paper |</span><br><span class="line">| until drops of blood form on your |</span><br><span class="line">| forehead. |</span><br><span class="line">| |</span><br><span class="line">\ -- Gene Fowler /</span><br><span class="line"> -------------------------------------</span><br><span class="line"> \  ^__^</span><br><span class="line"> \  (oo)\_______</span><br><span class="line">    (__)\      )\/\</span><br><span class="line">||---w |</span><br><span class="line">||   ||</span><br><span class="line"> 要把它转成镜像的话，执行</span><br><span class="line"> docker commit cowsay test/cowsayimage</span><br><span class="line"> </span><br><span class="line"> 命令的返回值是这个镜像的唯一识别码（unique ID）。现在，我们创建了一个能随时使用，</span><br><span class="line"> 并且已安装 cowsay 的镜像：</span><br><span class="line"></span><br><span class="line"> docker run test/cowsayimage /usr/games/cowsay &quot;Moo&quot;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;sonar为容器名称&quot;&gt;&lt;a href=&quot;#sonar为容器名称&quot; class=&quot;headerlink&quot; title=&quot;sonar为容器名称&quot;&gt;&lt;/a&gt;sonar为容器名称&lt;/h4&gt; &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux常用命令</title>
+    <link href="http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2019/01/14/linux常用命令/</id>
+    <published>2019-01-14T09:45:53.000Z</published>
+    <updated>2019-01-14T09:46:38.107Z</updated>
+    
+    <content type="html"><![CDATA[<p>######## linux 常用命令 ######<br>网络断了启动网络  service network start</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;######## linux 常用命令 ######&lt;br&gt;网络断了启动网络  service network start&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker_python</title>
+    <link href="http://yoursite.com/2019/01/11/docker-python/"/>
+    <id>http://yoursite.com/2019/01/11/docker-python/</id>
+    <published>2019-01-11T07:38:36.000Z</published>
+    <updated>2019-01-11T07:39:17.002Z</updated>
+    
+    <content type="html"><![CDATA[<p>docker run  -v $PWD:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;docker run  -v $PWD:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker安装 mysql</title>
+    <link href="http://yoursite.com/2019/01/10/docker/"/>
+    <id>http://yoursite.com/2019/01/10/docker/</id>
+    <published>2019-01-10T02:16:06.000Z</published>
+    <updated>2019-01-10T02:44:38.641Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="docker-安装-mysql"><a href="#docker-安装-mysql" class="headerlink" title="docker 安装 mysql"></a>docker 安装 mysql</h3><p>‘’’</p><h1 id="docker-中下载-mysql"><a href="#docker-中下载-mysql" class="headerlink" title="docker 中下载 mysql"></a>docker 中下载 mysql</h1><p>docker pull mysql</p><p>#启动<br>docker run –name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Lzslov123! -d mysql</p><p>#进入容器<br>docker exec -it mysql bash</p><p>#登录mysql<br>mysql -u root -p<br>ALTER USER ‘root‘@’localhost’ IDENTIFIED BY ‘Lzslov123!’;</p><p>#添加远程登录用户<br>CREATE USER ‘liaozesong‘@’%’ IDENTIFIED WITH mysql_native_password BY ‘Lzslov123!’;<br>或者 CREATE USER ‘liaozesong‘@’%’ IDENTIFIED BY ‘Lzslov123!’;<br>GRANT ALL PRIVILEGES ON <em>.</em> TO ‘liaozesong‘@’%’;<br>‘’’</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;docker-安装-mysql&quot;&gt;&lt;a href=&quot;#docker-安装-mysql&quot; class=&quot;headerlink&quot; title=&quot;docker 安装 mysql&quot;&gt;&lt;/a&gt;docker 安装 mysql&lt;/h3&gt;&lt;p&gt;‘’’&lt;/p&gt;
+&lt;h1 id=&quot;do
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+</feed>

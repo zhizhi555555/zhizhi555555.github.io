@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://yoursite.com/2019/04/16/abc/</loc>
+    <lastmod>2019-04-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/04/16/hello-world/</loc>
+    <lastmod>2019-04-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/04/16/apollo/</loc>
+    <lastmod>2019-04-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/31/jenkins-jacoco/</loc>
+    <lastmod>2019-01-31</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/29/docker-jenkins/</loc>
+    <lastmod>2019-01-29</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/25/docker-example/</loc>
+    <lastmod>2019-01-25</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/25/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2019-01-25</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/23/gitlab%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</loc>
+    <lastmod>2019-01-24</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/15/docker%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2019-01-19</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/18/gitLab-Runner/</loc>
+    <lastmod>2019-01-18</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/18/gitlab%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2019-01-18</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/09/centos7/</loc>
+    <lastmod>2019-01-18</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/16/docker-redis/</loc>
+    <lastmod>2019-01-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/16/docker%E5%AF%84%E5%AD%98%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2019-01-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/16/docker-dockerFile/</loc>
+    <lastmod>2019-01-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/16/docker%E5%AE%B9%E5%99%A8%E8%BF%90%E8%A1%8Capt-get-update%E5%A4%B1%E8%B4%A5Temporary-failure-resolving/</loc>
+    <lastmod>2019-01-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/16/docker-IPv4-forwarding-is-disabled/</loc>
+    <lastmod>2019-01-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/16/linux-iptables/</loc>
+    <lastmod>2019-01-16</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2019-01-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/11/docker-python/</loc>
+    <lastmod>2019-01-11</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/10/docker/</loc>
+    <lastmod>2019-01-10</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/04/%E4%BD%A0%E5%A5%BD-%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2019-01-04</lastmod>
+  </url>
+</urlset>
