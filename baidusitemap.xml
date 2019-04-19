@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/2019/04/16/abc/</loc>
-    <lastmod>2019-04-16</lastmod>
+    <loc>http://yoursite.com/2019/01/09/python_os/</loc>
+    <lastmod>2019-04-19</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/01/09/centos7/</loc>
+    <lastmod>2019-04-17</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/04/16/hello-world/</loc>
     <lastmod>2019-04-16</lastmod>
@@ -32,9 +35,6 @@
     <lastmod>2019-01-18</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/01/18/gitlab%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2019-01-18</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/01/09/centos7/</loc>
     <lastmod>2019-01-18</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/01/16/docker-redis/</loc>

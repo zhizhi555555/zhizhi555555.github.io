@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2019/01/09/python_os/</loc>
     
-    <lastmod>2019-04-17T06:18:03.222Z</lastmod>
+    <lastmod>2019-04-19T09:52:06.102Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/04/16/abc/</loc>
+    <loc>http://yoursite.com/2019/01/09/centos7/</loc>
     
-    <lastmod>2019-04-16T05:59:34.117Z</lastmod>
+    <lastmod>2019-04-17T07:02:08.698Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-04-17T06:18:03.222Z</lastmod>
     
   </url>
   
@@ -82,13 +89,6 @@
     <loc>http://yoursite.com/2019/01/18/gitlab%E5%AE%89%E8%A3%85/</loc>
     
     <lastmod>2019-01-18T03:37:11.724Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/01/09/centos7/</loc>
-    
-    <lastmod>2019-01-18T02:38:24.045Z</lastmod>
     
   </url>
   
