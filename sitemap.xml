@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/04/26/python-db/</loc>
+    
+    <lastmod>2019-04-26T09:20:00.857Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2019-04-25T06:48:13.268Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/01/09/python_os/</loc>
     
     <lastmod>2019-04-24T02:09:24.317Z</lastmod>
@@ -131,13 +145,6 @@
     <loc>http://yoursite.com/2019/01/16/linux-iptables/</loc>
     
     <lastmod>2019-01-16T02:26:02.523Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2019-01-14T09:46:38.107Z</lastmod>
     
   </url>
   

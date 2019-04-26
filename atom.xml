@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-16T05:55:15.719Z</updated>
+  <updated>2019-04-26T09:20:00.857Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python_db</title>
+    <link href="http://yoursite.com/2019/04/26/python-db/"/>
+    <id>http://yoursite.com/2019/04/26/python-db/</id>
+    <published>2019-04-26T09:14:59.000Z</published>
+    <updated>2019-04-26T09:20:00.857Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">import cx_Oracle</span><br><span class="line">import os</span><br><span class="line">try:</span><br><span class="line">    os.environ[&apos;NLS_LANG&apos;] = &apos;SIMPLIFIED CHINESE_CHINA.utf8&apos;</span><br><span class="line">    db = cx_Oracle.connect(&apos;数据库用户名&apos;, &apos;数据库密码&apos;, &apos;数据库IP地址/数据库实例&apos;)</span><br><span class="line">    c = db.cursor()</span><br><span class="line">    ##读取SQL文件,获得sql语句的list</span><br><span class="line">    with open(u&apos;E:\\test.sql&apos;, &apos;r+&apos;) as f:</span><br><span class="line">        sql_list = f.read().split(&apos;;&apos;)[:-1]  # sql文件最后一行加上;</span><br><span class="line">        sql_list = [x.replace(&apos;\n&apos;, &apos; &apos;) if &apos;\n&apos; in x else x for x in sql_list]  # 将每段sql里的换行符改成空格</span><br><span class="line">    ##执行sql语句，使用循环执行sql语句</span><br><span class="line">    for sql_item  in sql_list:</span><br><span class="line">        # print (sql_item)</span><br><span class="line">        c.execute(sql_item)</span><br><span class="line">except cx_Oracle.Error as e:</span><br><span class="line">    print e</span><br><span class="line">finally:</span><br><span class="line">    c.close()</span><br><span class="line">    db.commit()</span><br><span class="line">    db.close()</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -395,16 +418,15 @@
     <link href="http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://yoursite.com/2019/01/14/linux常用命令/</id>
     <published>2019-01-14T09:45:53.000Z</published>
-    <updated>2019-01-14T09:46:38.107Z</updated>
+    <updated>2019-04-25T06:48:13.268Z</updated>
     
-    <content type="html"><![CDATA[<p>######## linux 常用命令 ######<br>网络断了启动网络  service network start</p>]]></content>
+    <content type="html"><![CDATA[<p>######## linux 常用命令 ######<br>网络断了启动网络  service network start<br>kill -9 <code>ps -ef|grep firefox|grep -v grep|awk &#39;{print $2}&#39;</code>  </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;######## linux 常用命令 ######&lt;br&gt;网络断了启动网络  service network start&lt;/p&gt;
-
+        &lt;p&gt;######## linux 常用命令 ######&lt;br&gt;网络断了启动网络  service network start&lt;br&gt;kill -9 &lt;code&gt;ps -ef|grep firefox|grep -v grep|awk &amp;#39;{print $2}&amp;#39;&lt;
       
     
     </summary>
@@ -459,29 +481,6 @@
     
     
       <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>centos7</title>
-    <link href="http://yoursite.com/2019/01/09/centos7/"/>
-    <id>http://yoursite.com/2019/01/09/centos7/</id>
-    <published>2019-01-09T09:17:58.000Z</published>
-    <updated>2019-04-17T07:02:08.698Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="centos7-初始化安装"><a href="#centos7-初始化安装" class="headerlink" title="centos7 初始化安装"></a>centos7 初始化安装</h3><p>刚开始安装用mini版本，所以很多需要安装的库都没安装，<br>首先会出现输入ifconfig没有对应的值<br>ifconfig<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install net-tools</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;centos7-初始化安装&quot;&gt;&lt;a href=&quot;#centos7-初始化安装&quot; class=&quot;headerlink&quot; title=&quot;centos7 初始化安装&quot;&gt;&lt;/a&gt;centos7 初始化安装&lt;/h3&gt;&lt;p&gt;刚开始安装用mini版本，所以很多需要安装的库都没安
-      
-    
-    </summary>
-    
-    
-      <category term="centos7,linux" scheme="http://yoursite.com/tags/centos7-linux/"/>
     
   </entry>
   
