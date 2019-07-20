@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-26T09:20:00.857Z</updated>
+  <updated>2019-07-20T13:57:55.524Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>springboot_annotation</title>
+    <link href="http://yoursite.com/2019/07/20/springboot-annotation/"/>
+    <id>http://yoursite.com/2019/07/20/springboot-annotation/</id>
+    <published>2019-07-20T13:10:32.000Z</published>
+    <updated>2019-07-20T13:57:55.524Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="springBoot-Configuration"><a href="#springBoot-Configuration" class="headerlink" title="springBoot @Configuration"></a>springBoot @Configuration</h3><h4 id="ComponentScan-使用"><a href="#ComponentScan-使用" class="headerlink" title="@ComponentScan 使用"></a>@ComponentScan 使用</h4><p>ComponentScan 就是基本的扫描spring的注解包<br>注意点:如果要用到springboot的Filters属性，那么需要把useDefaultFilters设置成false,否则filter失效<br>@ComponentScan(value=”com.melon.web”,<br>includeFilters={@Filters(type=FilterType.ANNOTATION,classes={Controller.class}},<br>useDefaultFilters=false)</p><p>如果useDefaultFilters不设置false，那么includeFilters就不生效，走的是默认的配置，<br>所以一般情况下你要用到Filter就要设置useDefaultFilters=false<br>FilterType默认按注解过滤</p><ol><li>指定注解类型比如@Controller<blockquote><blockquote><p>@Filters(type=FilterType.ANNOTATION,classes={Controller.class} </p></blockquote></blockquote></li><li>过滤指明具体类<blockquote><blockquote><p>@Filters(type=FilterType.ASSIGNABLE_TYPE,classes={MyController.class}</p></blockquote></blockquote></li><li>自定义类型<blockquote><blockquote><p>@Filters(type=FilterType.CUSTOM,classes={MyFilter.class}</p></blockquote></blockquote></li></ol><blockquote><p>MyFilter 代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">public class MyTypeFilter implements TypeFilter &#123;</span><br><span class="line">    /**</span><br><span class="line">     *</span><br><span class="line">     * @param metadataReader 读取当前正在扫描类的信息</span><br><span class="line">     * @param metadataReaderFactory 可以获取到其他任何类信息</span><br><span class="line">     * @return</span><br><span class="line">     * @throws IOException</span><br><span class="line">     */</span><br><span class="line"></span><br><span class="line">    public boolean match(MetadataReader metadataReader, MetadataReaderFactory metadataReaderFactory) throws IOException &#123;</span><br><span class="line">        //获取当前类注解的信息</span><br><span class="line">        AnnotationMetadata annotationMetadata = metadataReader.getAnnotationMetadata();</span><br><span class="line">        //获取扫描类的信息</span><br><span class="line">        ClassMetadata classMetadata = metadataReader.getClassMetadata();</span><br><span class="line">        //获取扫描类资源(类路径)</span><br><span class="line">        Resource resource = metadataReader.getResource();</span><br><span class="line">        if(classMetadata.getClassName().contains(&quot;Order&quot;))&#123;</span><br><span class="line">            return true;</span><br><span class="line">        &#125;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;springBoot-Configuration&quot;&gt;&lt;a href=&quot;#springBoot-Configuration&quot; class=&quot;headerlink&quot; title=&quot;springBoot @Configuration&quot;&gt;&lt;/a&gt;springBoot @C
+      
+    
+    </summary>
+    
+    
+      <category term="springboot" scheme="http://yoursite.com/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python_db</title>
     <link href="http://yoursite.com/2019/04/26/python-db/"/>
     <id>http://yoursite.com/2019/04/26/python-db/</id>
     <published>2019-04-26T09:14:59.000Z</published>
-    <updated>2019-04-26T09:20:00.857Z</updated>
+    <updated>2019-04-30T01:42:15.723Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">import cx_Oracle</span><br><span class="line">import os</span><br><span class="line">try:</span><br><span class="line">    os.environ[&apos;NLS_LANG&apos;] = &apos;SIMPLIFIED CHINESE_CHINA.utf8&apos;</span><br><span class="line">    db = cx_Oracle.connect(&apos;数据库用户名&apos;, &apos;数据库密码&apos;, &apos;数据库IP地址/数据库实例&apos;)</span><br><span class="line">    c = db.cursor()</span><br><span class="line">    ##读取SQL文件,获得sql语句的list</span><br><span class="line">    with open(u&apos;E:\\test.sql&apos;, &apos;r+&apos;) as f:</span><br><span class="line">        sql_list = f.read().split(&apos;;&apos;)[:-1]  # sql文件最后一行加上;</span><br><span class="line">        sql_list = [x.replace(&apos;\n&apos;, &apos; &apos;) if &apos;\n&apos; in x else x for x in sql_list]  # 将每段sql里的换行符改成空格</span><br><span class="line">    ##执行sql语句，使用循环执行sql语句</span><br><span class="line">    for sql_item  in sql_list:</span><br><span class="line">        # print (sql_item)</span><br><span class="line">        c.execute(sql_item)</span><br><span class="line">except cx_Oracle.Error as e:</span><br><span class="line">    print e</span><br><span class="line">finally:</span><br><span class="line">    c.close()</span><br><span class="line">    db.commit()</span><br><span class="line">    db.close()</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">import cx_Oracle</span><br><span class="line">import os</span><br><span class="line">try:</span><br><span class="line">    os.environ[&apos;NLS_LANG&apos;] = &apos;SIMPLIFIED CHINESE_CHINA.utf8&apos;</span><br><span class="line">    db = cx_Oracle.connect(&apos;数据库用户名&apos;, &apos;数据库密码&apos;, &apos;数据库IP地址/数据库实例&apos;)</span><br><span class="line">    c = db.cursor()</span><br><span class="line">    ##读取SQL文件,获得sql语句的list</span><br><span class="line">    with open(u&apos;E:\\test.sql&apos;, &apos;r+&apos;) as f:</span><br><span class="line">        sql_list = f.read().split(&apos;;&apos;)[:-1]  # sql文件最后一行加上;</span><br><span class="line">        sql_list = [x.replace(&apos;\n&apos;, &apos; &apos;) if &apos;\n&apos; in x else x for x in sql_list]  # 将每段sql里的换行符改成空格</span><br><span class="line">    ##执行sql语句，使用循环执行sql语句</span><br><span class="line">    for sql_item  in sql_list:</span><br><span class="line">        # print (sql_item)</span><br><span class="line">        c.execute(sql_item)</span><br><span class="line">except cx_Oracle.Error as e:</span><br><span class="line">    print e</span><br><span class="line">finally:</span><br><span class="line">    c.close()</span><br><span class="line">    db.commit()</span><br><span class="line">    db.close()</span><br></pre></td></tr></table></figure><p>oracle编码问题<br>importlib.reload(sys)<br>os.environ[‘NLS_LANG’] = ‘SIMPLIFIED CHINESE_CHINA.UTF8’</p>]]></content>
     
     <summary type="html">
     
@@ -418,9 +441,9 @@
     <link href="http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://yoursite.com/2019/01/14/linux常用命令/</id>
     <published>2019-01-14T09:45:53.000Z</published>
-    <updated>2019-04-25T06:48:13.268Z</updated>
+    <updated>2019-05-08T02:15:22.306Z</updated>
     
-    <content type="html"><![CDATA[<p>######## linux 常用命令 ######<br>网络断了启动网络  service network start<br>kill -9 <code>ps -ef|grep firefox|grep -v grep|awk &#39;{print $2}&#39;</code>  </p>]]></content>
+    <content type="html"><![CDATA[<p>######## linux 常用命令 ######<br>网络断了启动网络  service network start<br>kill -9 <code>ps -ef|grep firefox|grep -v grep|awk &#39;{print $2}&#39;</code>  </p><p>查看某端口占用的线程的pid </p><p>netstat -nlp |grep :9181</p>]]></content>
     
     <summary type="html">
     
@@ -451,30 +474,6 @@
       
         &lt;p&gt;docker run  -v $PWD:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py&lt;/p&gt;
 
-      
-    
-    </summary>
-    
-    
-      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker安装 mysql</title>
-    <link href="http://yoursite.com/2019/01/10/docker/"/>
-    <id>http://yoursite.com/2019/01/10/docker/</id>
-    <published>2019-01-10T02:16:06.000Z</published>
-    <updated>2019-01-10T02:44:38.641Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="docker-安装-mysql"><a href="#docker-安装-mysql" class="headerlink" title="docker 安装 mysql"></a>docker 安装 mysql</h3><p>‘’’</p><h1 id="docker-中下载-mysql"><a href="#docker-中下载-mysql" class="headerlink" title="docker 中下载 mysql"></a>docker 中下载 mysql</h1><p>docker pull mysql</p><p>#启动<br>docker run –name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Lzslov123! -d mysql</p><p>#进入容器<br>docker exec -it mysql bash</p><p>#登录mysql<br>mysql -u root -p<br>ALTER USER ‘root‘@’localhost’ IDENTIFIED BY ‘Lzslov123!’;</p><p>#添加远程登录用户<br>CREATE USER ‘liaozesong‘@’%’ IDENTIFIED WITH mysql_native_password BY ‘Lzslov123!’;<br>或者 CREATE USER ‘liaozesong‘@’%’ IDENTIFIED BY ‘Lzslov123!’;<br>GRANT ALL PRIVILEGES ON <em>.</em> TO ‘liaozesong‘@’%’;<br>‘’’</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;docker-安装-mysql&quot;&gt;&lt;a href=&quot;#docker-安装-mysql&quot; class=&quot;headerlink&quot; title=&quot;docker 安装 mysql&quot;&gt;&lt;/a&gt;docker 安装 mysql&lt;/h3&gt;&lt;p&gt;‘’’&lt;/p&gt;
-&lt;h1 id=&quot;do
       
     
     </summary>

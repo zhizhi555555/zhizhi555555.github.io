@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/04/26/python-db/</loc>
+    <loc>http://yoursite.com/2019/07/20/springboot-annotation/</loc>
     
-    <lastmod>2019-04-26T09:20:00.857Z</lastmod>
+    <lastmod>2019-07-20T13:57:55.524Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
-    <lastmod>2019-04-25T06:48:13.268Z</lastmod>
+    <lastmod>2019-05-08T02:15:22.306Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/26/python-db/</loc>
+    
+    <lastmod>2019-04-30T01:42:15.723Z</lastmod>
     
   </url>
   
