@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-20T14:07:14.274Z</updated>
+  <updated>2019-07-27T14:00:14.748Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring_basic</title>
+    <link href="http://yoursite.com/2019/07/27/spring-basic/"/>
+    <id>http://yoursite.com/2019/07/27/spring-basic/</id>
+    <published>2019-07-27T13:32:09.000Z</published>
+    <updated>2019-07-27T14:00:14.748Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="spring基础"><a href="#spring基础" class="headerlink" title="spring基础"></a>spring基础</h4><p>##@Componet</p><ol><li>@RestController @Service 注解等都是基于@component<br>###@componentScan 源码中的useDefaultFilter<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">@ComponentScan(value = &quot;com.melon.app&quot;,</span><br><span class="line">        includeFilters =&#123;@ComponentScan.Filter(type =</span><br><span class="line">                FilterType.CUSTOM,classes = &#123;MyTypeFilter.class&#125;)&#125;,</span><br><span class="line">        useDefaultFilters = false)</span><br></pre></td></tr></table></figure></li></ol><p>其中useDefaultFilters为何要设置false的原因就是如果不设置都会扫描@component注解的类<br>源码分析<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">AnnotationConfigApplicationContext-&gt;AbstractApplicationContext.refresh() </span><br><span class="line"></span><br><span class="line">try &#123;</span><br><span class="line">// Allows post-processing of the bean factory in context subclasses.</span><br><span class="line">postProcessBeanFactory(beanFactory);</span><br><span class="line"></span><br><span class="line">// 调用后置拦截器</span><br><span class="line">invokeBeanFactoryPostProcessors(beanFactory);</span><br><span class="line"></span><br><span class="line">// Register bean processors that intercept bean creation.</span><br><span class="line">registerBeanPostProcessors(beanFactory);</span><br><span class="line">````</span><br><span class="line">&gt;AbstractApplicationContextprotected</span><br></pre></td></tr></table></figure></p><p>void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//调用后置拦截器</span><br><span class="line">&gt; PostProcessorRegistrationDelegate</span><br></pre></td></tr></table></figure></p><p>-&gt;invokeBeanFactoryPostProcessors(beanFactory, getBeanFactoryPostProcessors());<br> -&gt;invokeBeanDefinitionRegistryPostProcessors(currentRegistryProcessors, registry);<br>  -&gt;for (BeanDefinitionRegistryPostProcessor postProcessor : postProcessors) {<br>            postProcessor.postProcessBeanDefinitionRegistry(registry);<br>    }<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; ConfigureClassPostProcessor</span><br></pre></td></tr></table></figure></p><p> -&gt;postProcessBeanDefinitionRegistry<br>  -&gt;processConfigBeanDefinitions<br>    -&gt; parser.parse(candidates);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; ConfigureClassParser</span><br></pre></td></tr></table></figure></p><p> -&gt;parse(Set<beandefinitionholder> configCandidates)<br>  -&gt;if (bd instanceof AnnotatedBeanDefinition) {<br>      parse(((AnnotatedBeanDefinition) bd).getMetadata(), holder.getBeanName());<br>    }<br>    -&gt;parse(AnnotationMetadata metadata, String beanName)<br>     -&gt;processConfigurationClass(ConfigurationClass configClass)<br>      -&gt; doProcessConfigurationClass(configClass, sourceClass);<br>       -&gt;Set<beandefinitionholder> scannedBeanDefinitions =<br>        this.componentScanParser.parse(componentScan, sourceClass.getMetadata().getClassName());<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; ComponentScanAnnotationParser</span><br></pre></td></tr></table></figure></beandefinitionholder></beandefinitionholder></p><p>   -&gt;parse(AnnotationAttributes componentScan, final String declaringClass)<br>    -&gt;ClassPathBeanDefinitionScanner scanner = new ClassPathBeanDefinitionScanner(this.registry,<br>                componentScan.getBoolean(“useDefaultFilters”), this.environment, this.resourceLoader);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; ClassPathBeanDefinitionScanner</span><br></pre></td></tr></table></figure></p><p>  -&gt;ClassPathBeanDefinitionScanner(BeanDefinitionRegistry registry, boolean useDefaultFilters,<br>            Environment environment, @Nullable ResourceLoader resourceLoader)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">public ClassPathBeanDefinitionScanner(BeanDefinitionRegistry registry, boolean useDefaultFilters,</span><br><span class="line">Environment environment, @Nullable ResourceLoader resourceLoader) &#123;</span><br><span class="line"></span><br><span class="line">Assert.notNull(registry, &quot;BeanDefinitionRegistry must not be null&quot;);</span><br><span class="line">this.registry = registry;</span><br><span class="line"></span><br><span class="line">if (useDefaultFilters) &#123;</span><br><span class="line">registerDefaultFilters();</span><br><span class="line">&#125;</span><br><span class="line">setEnvironment(environment);</span><br><span class="line">setResourceLoader(resourceLoader);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><blockquote><p>ClassPathScanningCandidateComponentProvider<br>····<br>protected void registerDefaultFilters() {<br>       //默认情况下会扫描所有注解是component的类<br>        this.includeFilters.add(new AnnotationTypeFilter(Component.class));<br>        ClassLoader cl = ClassPathScanningCandidateComponentProvider.class.getClassLoader();<br>        try {<br>            this.includeFilters.add(new AnnotationTypeFilter(<br>                    ((Class&lt;? extends Annotation&gt;) ClassUtils.forName(“javax.annotation.ManagedBean”, cl)), false));<br>            logger.trace(“JSR-250 ‘javax.annotation.ManagedBean’ found and supported for component scanning”);<br>        }<br>        catch (ClassNotFoundException ex) {<br>            // JSR-250 1.1 API (as included in Java EE 6) not available - simply skip.<br>        }<br>        try {<br>            this.includeFilters.add(new AnnotationTypeFilter(<br>                    ((Class&lt;? extends Annotation&gt;) ClassUtils.forName(“javax.inject.Named”, cl)), false));<br>            logger.trace(“JSR-330 ‘javax.inject.Named’ annotation found and supported for component scanning”);<br>        }<br>        catch (ClassNotFoundException ex) {<br>            // JSR-330 API not available - simply skip.<br>        }<br>    }<br><code></code>    </p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;spring基础&quot;&gt;&lt;a href=&quot;#spring基础&quot; class=&quot;headerlink&quot; title=&quot;spring基础&quot;&gt;&lt;/a&gt;spring基础&lt;/h4&gt;&lt;p&gt;##@Componet&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;@RestController @Serv
+      
+    
+    </summary>
+    
+    
+      <category term="spring基础" scheme="http://yoursite.com/tags/spring%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>springboot_annotation</title>
@@ -456,30 +481,6 @@
     
     
       <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker_python</title>
-    <link href="http://yoursite.com/2019/01/11/docker-python/"/>
-    <id>http://yoursite.com/2019/01/11/docker-python/</id>
-    <published>2019-01-11T07:38:36.000Z</published>
-    <updated>2019-01-11T07:39:17.002Z</updated>
-    
-    <content type="html"><![CDATA[<p>docker run  -v $PWD:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;docker run  -v $PWD:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
     
   </entry>
   
