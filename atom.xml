@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-27T14:04:06.218Z</updated>
+  <updated>2019-07-28T03:59:21.891Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring_import</title>
+    <link href="http://yoursite.com/2019/07/28/spring-import/"/>
+    <id>http://yoursite.com/2019/07/28/spring-import/</id>
+    <published>2019-07-28T03:35:44.000Z</published>
+    <updated>2019-07-28T03:59:21.891Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="spring-import"><a href="#spring-import" class="headerlink" title="spring import"></a>spring import</h2><h3 id="Import标签使用"><a href="#Import标签使用" class="headerlink" title="@Import标签使用"></a>@Import标签使用</h3><ol><li>一般基本的用import标签使用<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@Import(value = &#123;Dog.class&#125;)</span><br></pre></td></tr></table></figure></li></ol><p>2.实现import接口</p><blockquote><p>Cat<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">package com.melon.app.bean;</span><br><span class="line">public class Cat &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p></blockquote><blockquote><p>Dog<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">package com.melon.app.bean;</span><br><span class="line">public class Dog &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p></blockquote><blockquote><p>MelonImportSelector实现spring提供的接口<br>package com.melon.app.config;</p></blockquote><p>import org.springframework.context.annotation.ImportSelector;<br>import org.springframework.core.type.AnnotationMetadata;</p><p>public class MelonImportSelector implements ImportSelector {<br>    public String[] selectImports(AnnotationMetadata importingClassMetadata) {<br>        return new String[]{“com.melon.app.bean.Cat”,”com.melon.app.bean.Dog”};<br>    }<br>}</p><blockquote><p>MyImportConfigureation 配置类<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">@Import(value = &#123;MelonImportSelector.class&#125;)</span><br><span class="line">public class MyImportConfigureation &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p></blockquote><blockquote><p>测试扫描出来的bean结果如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">org.springframework.context.annotation.internalConfigurationAnnotationProcessor</span><br><span class="line">org.springframework.context.annotation.internalAutowiredAnnotationProcessor</span><br><span class="line">org.springframework.context.annotation.internalCommonAnnotationProcessor</span><br><span class="line">org.springframework.context.event.internalEventListenerProcessor</span><br><span class="line">org.springframework.context.event.internalEventListenerFactory</span><br><span class="line">myImportConfigureation</span><br><span class="line">com.melon.app.bean.Cat</span><br><span class="line">com.melon.app.bean.Dog</span><br></pre></td></tr></table></figure></p></blockquote><ol start="3"><li>importBeanDefintionRegister<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">public class MelonImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar &#123;</span><br><span class="line">    /**</span><br><span class="line">     *</span><br><span class="line">     * @param importingClassMetadata 当前类的注解信息</span><br><span class="line">     * @param registry beanDefinition注册类</span><br><span class="line">     *    把所有需要添加到容器中的bean加入。</span><br><span class="line">     */</span><br><span class="line">    public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) &#123;</span><br><span class="line">        boolean bean1 = registry.containsBeanDefinition(&quot;com.melon.app.bean.Dog&quot;);</span><br><span class="line">        boolean bean2= registry.containsBeanDefinition(&quot;com.melon.app.bean.Cat&quot;);</span><br><span class="line">        //如果Dog和Cat同时存在于我们IOC容器中，那么创建Pig类，加入到容器</span><br><span class="line">        //对于我们要注册的bean,给bean进行封装，</span><br><span class="line">        if(bean1 &amp;&amp; bean2) &#123;</span><br><span class="line">            RootBeanDefinition beanDefinition = new RootBeanDefinition(Pig.class);</span><br><span class="line">            registry.registerBeanDefinition(&quot;pig&quot;,beanDefinition);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">@Import(value = &#123;MelonImportSelector.class,MelonImportBeanDefinitionRegistrar.class&#125;)</span><br><span class="line">public class MyImportConfigureation &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>扫描注册bean结果<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">org.springframework.context.annotation.internalConfigurationAnnotationProcessor</span><br><span class="line">org.springframework.context.annotation.internalAutowiredAnnotationProcessor</span><br><span class="line">org.springframework.context.annotation.internalCommonAnnotationProcessor</span><br><span class="line">org.springframework.context.event.internalEventListenerProcessor</span><br><span class="line">org.springframework.context.event.internalEventListenerFactory</span><br><span class="line">myImportConfigureation</span><br><span class="line">com.melon.app.bean.Cat</span><br><span class="line">com.melon.app.bean.Dog</span><br><span class="line">pig</span><br></pre></td></tr></table></figure></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;spring-import&quot;&gt;&lt;a href=&quot;#spring-import&quot; class=&quot;headerlink&quot; title=&quot;spring import&quot;&gt;&lt;/a&gt;spring import&lt;/h2&gt;&lt;h3 id=&quot;Import标签使用&quot;&gt;&lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="import" scheme="http://yoursite.com/tags/import/"/>
+    
+  </entry>
   
   <entry>
     <title>spring_basic</title>
@@ -458,29 +481,6 @@
     
     
       <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux常用命令</title>
-    <link href="http://yoursite.com/2019/01/14/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>http://yoursite.com/2019/01/14/linux常用命令/</id>
-    <published>2019-01-14T09:45:53.000Z</published>
-    <updated>2019-05-08T02:15:22.306Z</updated>
-    
-    <content type="html"><![CDATA[<p>######## linux 常用命令 ######<br>网络断了启动网络  service network start<br>kill -9 <code>ps -ef|grep firefox|grep -v grep|awk &#39;{print $2}&#39;</code>  </p><p>查看某端口占用的线程的pid </p><p>netstat -nlp |grep :9181</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;######## linux 常用命令 ######&lt;br&gt;网络断了启动网络  service network start&lt;br&gt;kill -9 &lt;code&gt;ps -ef|grep firefox|grep -v grep|awk &amp;#39;{print $2}&amp;#39;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
