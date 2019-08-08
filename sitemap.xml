@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/08/08/idea-highlight/</loc>
+    
+    <lastmod>2019-08-08T01:46:36.037Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/07/28/spring-factoryBean/</loc>
     
     <lastmod>2019-07-28T04:27:02.280Z</lastmod>

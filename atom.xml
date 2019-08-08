@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-28T04:27:02.280Z</updated>
+  <updated>2019-08-08T01:46:36.037Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>idea_highlight</title>
+    <link href="http://yoursite.com/2019/08/08/idea-highlight/"/>
+    <id>http://yoursite.com/2019/08/08/idea-highlight/</id>
+    <published>2019-08-08T01:45:48.000Z</published>
+    <updated>2019-08-08T01:46:36.037Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="idea-高亮显示"><a href="#idea-高亮显示" class="headerlink" title="idea 高亮显示"></a>idea 高亮显示</h4><p>依次修改File-settings-Editor-Color Scheme-General菜单下的Code-Identifier under caret和Identifier under caret(write)的Backgroud色值</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;idea-高亮显示&quot;&gt;&lt;a href=&quot;#idea-高亮显示&quot; class=&quot;headerlink&quot; title=&quot;idea 高亮显示&quot;&gt;&lt;/a&gt;idea 高亮显示&lt;/h4&gt;&lt;p&gt;依次修改File-settings-Editor-Color Scheme-Gene
+      
+    
+    </summary>
+    
+    
+      <category term="hightLight" scheme="http://yoursite.com/tags/hightLight/"/>
+    
+  </entry>
   
   <entry>
     <title>spring_factoryBean</title>
@@ -458,29 +481,6 @@
     
     
       <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux iptables</title>
-    <link href="http://yoursite.com/2019/01/16/linux-iptables/"/>
-    <id>http://yoursite.com/2019/01/16/linux-iptables/</id>
-    <published>2019-01-16T02:25:29.000Z</published>
-    <updated>2019-01-16T02:26:02.523Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="解决centos7中使用service-iptables-stop-显示not-loaded"><a href="#解决centos7中使用service-iptables-stop-显示not-loaded" class="headerlink" title="解决centos7中使用service iptables stop 显示not loaded"></a>解决centos7中使用service iptables stop 显示not loaded</h3><p>centos从7开始默认用的是firewalld，这个是基于iptables的，虽然有iptables的核心，<br>但是iptables的服务是没安装的。所以你只要停止firewalld服务即可：<br>sudo systemctl stop firewalld.service &amp;&amp; sudo systemctl disable firewalld.service</p><p>如果你要改用iptables的话，需要安装iptables服务：<br>sudo yum install iptables-services<br>sudo systemctl enable iptables &amp;&amp; sudo systemctl enable ip6tables<br>sudo systemctl start iptables &amp;&amp; sudo systemctl start ip6tables</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;解决centos7中使用service-iptables-stop-显示not-loaded&quot;&gt;&lt;a href=&quot;#解决centos7中使用service-iptables-stop-显示not-loaded&quot; class=&quot;headerlink&quot; title=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
