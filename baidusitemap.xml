@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/2019/11/19/mideng/</loc>
+    <lastmod>2019-11-19</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/2019/09/12/mysql%E6%9F%A5%E7%9C%8B%E9%94%81/</loc>
     <lastmod>2019-09-12</lastmod>
   </url>  <url>
