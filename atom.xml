@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-19T11:30:07.243Z</updated>
+  <updated>2019-09-12T03:29:56.174Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>&#39;test&#39;</title>
-    <link href="http://yoursite.com/2019/09/19/test/"/>
-    <id>http://yoursite.com/2019/09/19/test/</id>
-    <published>2019-09-19T11:29:33.000Z</published>
-    <updated>2019-09-19T11:30:07.243Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h4><p>hello world</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello&quot;&gt;&lt;/a&gt;hello&lt;/h4&gt;&lt;p&gt;hello world&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
-    
-  </entry>
   
   <entry>
     <title>&#39;mysql查看锁&#39;</title>
@@ -473,6 +449,29 @@
       
         &lt;h4 id=&quot;dockerFile&quot;&gt;&lt;a href=&quot;#dockerFile&quot; class=&quot;headerlink&quot; title=&quot;dockerFile&quot;&gt;&lt;/a&gt;dockerFile&lt;/h4&gt;&lt;p&gt;利用 Dockerfile，使创建镜像的过程全部自动化。&lt;/p&gt;
 &lt;bloc
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker容器运行apt-get update失败Temporary failure resolving</title>
+    <link href="http://yoursite.com/2019/01/16/docker%E5%AE%B9%E5%99%A8%E8%BF%90%E8%A1%8Capt-get-update%E5%A4%B1%E8%B4%A5Temporary-failure-resolving/"/>
+    <id>http://yoursite.com/2019/01/16/docker容器运行apt-get-update失败Temporary-failure-resolving/</id>
+    <published>2019-01-16T03:45:04.000Z</published>
+    <updated>2019-01-16T03:46:42.059Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving"><a href="#Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving" class="headerlink" title="Ubuntu中docker容器运行apt-get update失败Temporary failure resolving"></a>Ubuntu中docker容器运行apt-get update失败Temporary failure resolving</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure><p>试过了添加nameserver到/etc/resolve.conf还是不行，最后重启docker，问题解决了。。。</p><p>一开始是简单粗暴地改写域名解析文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -c &quot;s=&apos;nameserver 114.114.114.114&apos;;fname=&apos;/etc/resolv.conf&apos;;fp=open(fname);ss=fp.read();fp.close();fp=open(fname, &apos;w&apos;);fp.write(&apos;&#123;s&#125;\n&#123;ss&#125;&apos;.format(s=s,ss=ss));fp.close()&quot;</span><br></pre></td></tr></table></figure></p><p>结果在容器运行时有作用，在创建容器时还是会出问题，所以还是要重启docker</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving&quot;&gt;&lt;a href=&quot;#Ubuntu中docker容器运行apt-get-update失败Temporary-failure-resolving
       
     
     </summary>
