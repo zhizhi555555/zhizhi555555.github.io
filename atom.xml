@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-19T08:37:13.992Z</updated>
+  <updated>2019-11-20T11:03:09.918Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更改gitlab clone的external_url</title>
+    <link href="http://yoursite.com/2019/11/20/%E6%9B%B4%E6%94%B9gitlab-clone%E7%9A%84external-url/"/>
+    <id>http://yoursite.com/2019/11/20/更改gitlab-clone的external-url/</id>
+    <published>2019-11-20T11:01:19.000Z</published>
+    <updated>2019-11-20T11:03:09.918Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="更改gitlab-clone的external-url"><a href="#更改gitlab-clone的external-url" class="headerlink" title="更改gitlab clone的external_url"></a>更改gitlab clone的external_url</h3><p>在安装gitlab，新建项目之后，默认的clone链接为<a href="mailto:git@gitlab.example" target="_blank" rel="noopener">git@gitlab.example</a>:test/test.git，http也是gitlab.example这种的<br>这样每次clone时候都需要手动改下，改成ip或者域名才可以，<br>可以按照如下方式更改external_url，</p><p>直接更改/etc/gitlab/gitlab.rb不能生效，更改/opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml文件(centos7)中<br>host和port即可<br>host可以换成域名，port更改为gitlab服务的端口，这里不设置的话在clone http url时候还是不行，需要把端口加上</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml</span><br><span class="line">  # 1. GitLab app settings</span><br><span class="line">  # ==========================</span><br><span class="line"></span><br><span class="line">  ## GitLab settings</span><br><span class="line">  gitlab:</span><br><span class="line">    ## Web server settings (note: host is the FQDN, do not include http://)</span><br><span class="line">    host: 10.119.116.160</span><br><span class="line">    port: 8181</span><br><span class="line">    https: false</span><br></pre></td></tr></table></figure><p>更改后clone的external_url后执行gitlab-ctl restart，重新进入gitlab就生效了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;更改gitlab-clone的external-url&quot;&gt;&lt;a href=&quot;#更改gitlab-clone的external-url&quot; class=&quot;headerlink&quot; title=&quot;更改gitlab clone的external_url&quot;&gt;&lt;/a&gt;更改git
+      
+    
+    </summary>
+    
+    
+      <category term="gitLab" scheme="http://yoursite.com/tags/gitLab/"/>
+    
+  </entry>
   
   <entry>
     <title>mideng</title>
@@ -446,30 +469,6 @@
       
       
         &lt;h2 id=&quot;docker寄存服务-registry&quot;&gt;&lt;a href=&quot;#docker寄存服务-registry&quot; class=&quot;headerlink&quot; title=&quot;docker寄存服务(registry)&quot;&gt;&lt;/a&gt;docker寄存服务(registry)&lt;/h2&gt;&lt;bl
-      
-    
-    </summary>
-    
-    
-      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker dockerFile</title>
-    <link href="http://yoursite.com/2019/01/16/docker-dockerFile/"/>
-    <id>http://yoursite.com/2019/01/16/docker-dockerFile/</id>
-    <published>2019-01-16T05:37:08.000Z</published>
-    <updated>2019-01-16T06:56:04.707Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="dockerFile"><a href="#dockerFile" class="headerlink" title="dockerFile"></a>dockerFile</h4><p>利用 Dockerfile，使创建镜像的过程全部自动化。</p><blockquote><p>Dockerfile<br>  Dockerfile 是一个描述如何创建 Docker 镜像所需步骤的文本文件。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir cowsay</span><br><span class="line">   $ cd cowsay</span><br><span class="line">   $ touch Dockerfile</span><br></pre></td></tr></table></figure><p>编辑Dockerfile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">FROM debian:wheezy</span><br><span class="line">RUN apt-get update &amp;&amp; apt-get install -y cowsay fortune</span><br></pre></td></tr></table></figure></p><p>执行Dockerfile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ls</span><br><span class="line">Dockerfile</span><br><span class="line">$ docker build -t test/cowsay-dockerfile .</span><br></pre></td></tr></table></figure></p><p>最后面那个点代表当前目录下执行docker build<br>创建成功,执行docker<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run test/cowsay-dockerfile /usr/games/cowsay &quot;Moo&quot;</span><br></pre></td></tr></table></figure></p><h4 id="通过利用-Dockerfile-的-ENTRYPOINT-指-令"><a href="#通过利用-Dockerfile-的-ENTRYPOINT-指-令" class="headerlink" title="通过利用 Dockerfile 的 ENTRYPOINT 指 令,"></a>通过利用 Dockerfile 的 ENTRYPOINT 指 令,</h4><blockquote><p>我 们 可 以 让 用 户 更 易 于 使 用 这 个 镜 像。<br>ENTRYPOINT 指令让我们指定一个可执行文件，同时还能处理传给 docker run 的参数。<br>在 Dockerfile 的最后加上下面这一行：</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ENTRYPOINT [&quot;/usr/games/cowsay&quot;]</span><br></pre></td></tr></table></figure><p>现在再次生成新镜像，以后使用这个新镜像时再也不需要指定 cowsay 命令了：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ docker build -t test/cowsay-dockerfile .</span><br><span class="line"></span><br><span class="line">$ docker run test/cowsay-dockerfile &quot;Moo&quot;</span><br></pre></td></tr></table></figure><h4 id="我们可以把-ENTRYPOINT-指定为一个我们自己的脚本"><a href="#我们可以把-ENTRYPOINT-指定为一个我们自己的脚本" class="headerlink" title="我们可以把 ENTRYPOINT 指定为一个我们自己的脚本"></a>我们可以把 ENTRYPOINT 指定为一个我们自己的脚本</h4><p>创建一个新文件 entrypoint.sh<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">if [ $# -eq 0 ]; then</span><br><span class="line"> /usr/games/fortune | /usr/games/cowsay</span><br><span class="line"> else</span><br><span class="line"> /usr/games/cowsay &quot;$@&quot;</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></p><p>用 chmod +x entrypoint.sh 把文件设为可执行</p><p>修改DockerFile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FROM debian</span><br><span class="line">RUN apt-get update &amp;&amp; apt-get install -y cowsay fortune</span><br><span class="line">COPY entrypoint.sh / </span><br><span class="line">ENTRYPOINT [&quot;/entrypoint.sh&quot;]</span><br></pre></td></tr></table></figure></p><blockquote><p>测试执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker build -t test/cowsay-dockerfile .</span><br><span class="line">docker run test/cowsay-dockerfile</span><br><span class="line">docker run test/cowsay-dockerfile Hello Moo</span><br></pre></td></tr></table></figure></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;dockerFile&quot;&gt;&lt;a href=&quot;#dockerFile&quot; class=&quot;headerlink&quot; title=&quot;dockerFile&quot;&gt;&lt;/a&gt;dockerFile&lt;/h4&gt;&lt;p&gt;利用 Dockerfile，使创建镜像的过程全部自动化。&lt;/p&gt;
-&lt;bloc
       
     
     </summary>
