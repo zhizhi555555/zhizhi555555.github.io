@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-20T11:03:09.918Z</updated>
+  <updated>2019-11-21T01:44:28.405Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux防火墙开启测试</title>
+    <link href="http://yoursite.com/2019/11/21/linux%E9%98%B2%E7%81%AB%E5%A2%99%E5%BC%80%E5%90%AF%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2019/11/21/linux防火墙开启测试/</id>
+    <published>2019-11-21T01:36:24.000Z</published>
+    <updated>2019-11-21T01:44:28.405Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="linux防火墙开启"><a href="#linux防火墙开启" class="headerlink" title="linux防火墙开启"></a>linux防火墙开启</h3><p>1、防火墙</p><blockquote><p>CentOS升级到7之后，发现无法使用iptables控制Linuxs的端口，google之后发现Centos 7使用firewalld代替了原来的iptables。下面记录如何使用firewalld开放Linux端口：</p></blockquote><ol><li>查看防火墙状态<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status firewalld</span><br></pre></td></tr></table></figure></li></ol><p>2.开启防火墙<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start firewalld</span><br></pre></td></tr></table></figure></p><p>3.关闭防火墙</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure><ol start="4"><li>查看当前firewall状态</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --state</span><br></pre></td></tr></table></figure><p>5.重启firewall</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure><ol start="6"><li>禁止开机启动<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl disable firewalld.service</span><br></pre></td></tr></table></figure></li></ol><h4 id="2、开启端口"><a href="#2、开启端口" class="headerlink" title="2、开启端口"></a>2、开启端口</h4><ol><li><p>查看已经开放的端口：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --list-ports</span><br></pre></td></tr></table></figure></li><li><p>开启端口</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure></li></ol><p>命令含义：</p><p>–zone #作用域</p><p>–add-port=80/tcp  #添加端口，格式为：端口/通讯协议</p><p>–permanent  #永久生效，没有此参数重启后失效</p><p>开启断绝口后需要重启防火墙</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;linux防火墙开启&quot;&gt;&lt;a href=&quot;#linux防火墙开启&quot; class=&quot;headerlink&quot; title=&quot;linux防火墙开启&quot;&gt;&lt;/a&gt;linux防火墙开启&lt;/h3&gt;&lt;p&gt;1、防火墙&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CentOS升级到7之后
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>更改gitlab clone的external_url</title>
@@ -446,29 +471,6 @@
       
         &lt;p&gt;docker pull redis&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td cl
-      
-    
-    </summary>
-    
-    
-      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker寄存服务</title>
-    <link href="http://yoursite.com/2019/01/16/docker%E5%AF%84%E5%AD%98%E6%9C%8D%E5%8A%A1/"/>
-    <id>http://yoursite.com/2019/01/16/docker寄存服务/</id>
-    <published>2019-01-16T07:09:44.000Z</published>
-    <updated>2019-01-16T10:11:17.252Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="docker寄存服务-registry"><a href="#docker寄存服务-registry" class="headerlink" title="docker寄存服务(registry)"></a>docker寄存服务(registry)</h2><blockquote><p>寄存服务（registry）<br>负责托管和发布镜像的服务，默认为 Docker Hub。</p></blockquote><blockquote><p>仓库（repository）<br>一组相关镜像（通常是一个应用或服务的不同版本）的集合</p></blockquote><blockquote><p>标签（tag）<br>仓库中镜像的识别号，由英文和数字组成（如 14.04 或 stable）。</p></blockquote><p>MAINTAINER 指令，这样做是为了给镜像设定作者的联系信息<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">FROM debian</span><br><span class="line">MAINTAINER John Smith &lt;john@smith.com&gt;</span><br><span class="line">RUN apt-get update &amp;&amp; apt-get install -y cowsay fortune</span><br><span class="line">COPY entrypoint.sh /</span><br><span class="line">ENTRYPOINT [&quot;/entrypoint.sh&quot;]</span><br></pre></td></tr></table></figure></p><p>构建与push 项目<br>仓库名称必须用你的 Docker Hub 账户名开头（我的是 amouat），<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker build -t amouat/cowsay .</span><br><span class="line">docker push amouat/cowsay</span><br></pre></td></tr></table></figure></p><p>加个冒号可以指定标签<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -t amouat/cowsay:stable.</span><br></pre></td></tr></table></figure></p><p>上传完毕后，任何人都可以用 docker pull 命令下载你的镜像<br>（例如 docker pull amouat/cowsay）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull zxg123/cowsay</span><br></pre></td></tr></table></figure></p><blockquote><p>issue: Docker push image: denied</p></blockquote><blockquote><p>问题：Docker push image: denied: requested accessto the resource is denied</p></blockquote><blockquote><p>原因：要先docke login再docker push</p></blockquote><p>解决：</p><p>[root@localhost website]# docker login</p><p>Login with your Docker ID to push and pullimages from Docker Hub. If you don’t have a Docker ID, head over to<a href="https://hub.docker.com" target="_blank" rel="noopener">https://hub.docker.com</a> to create one.</p><p>Username: lilei123</p><p>Password:</p><p>Login Succeeded</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;docker寄存服务-registry&quot;&gt;&lt;a href=&quot;#docker寄存服务-registry&quot; class=&quot;headerlink&quot; title=&quot;docker寄存服务(registry)&quot;&gt;&lt;/a&gt;docker寄存服务(registry)&lt;/h2&gt;&lt;bl
       
     
     </summary>
